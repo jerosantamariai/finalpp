@@ -1,9 +1,10 @@
 import React from 'react';
+import Inicio from './landsection/inicio';
 
 const Home = props => {
     return(
         <div className="home">
-            <h1>Home</h1>
+            <Inicio />
         </div>
     );
 }
