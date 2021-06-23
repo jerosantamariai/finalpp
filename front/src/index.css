@@ -123,3 +123,15 @@ input, textarea {
   letter-spacing: 0.25em;
   word-spacing: 0.25em;
 }
+
+/* FOOTER */
+
+.footer {
+  background-color: rgb(45, 51, 77);
+}
+
+.footer h1 {
+  color: white;
+  letter-spacing: 0.25em;
+  word-spacing: 0.25em;
+}
