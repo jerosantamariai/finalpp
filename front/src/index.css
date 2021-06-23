@@ -94,6 +94,13 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin: 20px;
 }
 
+.rocket {
+  position: absolute;
+  left: 62rem;
+  top: 90rem;
+  width: 20%;
+}
+
 /* PRECIOS */
 
 .personados {
