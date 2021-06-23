@@ -21,7 +21,7 @@ const Hablemos = props => {
                         <label for="exampleInputComment" className="form-label">COMENTARIO</label>
                         <textarea type="text" className="form-control" id="exampleInputComentario" rows="4" />
                     </div>
-                    <img src={Submit} alt="submit" type="submit" />
+                    <img src={Submit} alt="submit" type="submit" className="submit my-4" />
                 </form>
             </div>
             <img src={BigDoubleLine} alt="bigdoubleline" className="bigdoubleline my-5" />
