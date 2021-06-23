@@ -89,3 +89,21 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   width: 10%;
   margin: 20px;
 }
+
+/* PRECIOS */
+
+.personados {
+  width: 20%;
+}
+
+.signopeso {
+  width: 7%;
+}
+
+.tabla {
+  width: 50%;
+}
+
+.precios-cont .doubleline {
+  width: 8%;
+}
