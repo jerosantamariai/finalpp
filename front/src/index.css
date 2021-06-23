@@ -121,11 +121,16 @@ input, textarea {
 
 .bigdoubleline {
   width: 40%;
+  height: 5%;
 }
 
 .hablemos-cont p {
   letter-spacing: 0.25em;
   word-spacing: 0.25em;
+}
+
+.submit {
+  width: 70%;
 }
 
 /* FOOTER */
