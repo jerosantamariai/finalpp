@@ -4,8 +4,8 @@ import Ondas from '../../img/ondas.svg'
 
 const Trabajamos = props => {
     return (
-        <div className="trabajamos-cont">
-            <div className="top text-center">
+        <div className="trabajamos-cont no-gutters">
+            <div className="top text-center no-gutters">
                 <h1>¿CÓMO TRABAJAMOS?</h1>
                 <p>JUNTO A <strong>COBRANZA ONLINE</strong> SOMOS PARTNERS ESTRATÉGICOS.</p>
                 <p>NOSOTROS CERRAMOS EL CICLO Y NOS PREOCUPAMOS DE LOS ÚLTIMOS DETALLES!</p>
