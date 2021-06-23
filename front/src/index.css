@@ -105,6 +105,9 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .personados {
   width: 20%;
+  position: absolute;
+  top: 123rem;
+  left: 16rem;
 }
 
 .signopeso {
