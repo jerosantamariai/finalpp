@@ -107,3 +107,19 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .precios-cont .doubleline {
   width: 8%;
 }
+
+/* HABLEMOS */
+
+input, textarea {
+  border: 5px solid rgb(89, 106, 236) !important;
+  border-radius: 10px !important;
+}
+
+.bigdoubleline {
+  width: 40%;
+}
+
+.hablemos-cont p {
+  letter-spacing: 0.25em;
+  word-spacing: 0.25em;
+}
