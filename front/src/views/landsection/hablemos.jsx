@@ -1,12 +1,14 @@
 import React from 'react';
 import Submit from '../../img/submit.svg';
 import BigDoubleLine from '../../img/bigdoubleline.svg';
+import Dialogo from '../../img/hablemos.svg';
 
 const Hablemos = props => {
     return (
         <div className="hablemos-cont text-center my-5">
             <h1>HABLEMOS!</h1>
             <p>QUEREMOS AYUDARTE</p>
+            <img src={Dialogo} alt="dialogo" className="dialogo py-3" />
             <div className="formulario col-6 offset-3">
                 <form>
                     <div className="mb-3">
