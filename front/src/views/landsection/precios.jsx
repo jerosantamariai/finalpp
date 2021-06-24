@@ -1,6 +1,6 @@
 import React from 'react';
 import Tabla from '../../img/tabla.svg';
-import PersonaDos from '../../img/personados.svg';
+import PersonaDos from '../../img/personados.png';
 import SignoPeso from '../../img/signopeso.svg';
 import DoubleLine from '../../img/doubleline.svg';
 
