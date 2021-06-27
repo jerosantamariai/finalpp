@@ -15,10 +15,12 @@ const Precios = props => {
             </div>
             <h1 className="py-5">NUESTROS PRECIOS</h1>
             <img src={Tabla} alt="tabla" className="tabla" />
-            <div className="condiciones text-center pt-3 pb-5">
-                <p>* No incluye costas del juicio<br />* Juicios ordinarios<br />* Desde 12UF</p>
+            <div className="condiciones text-center pt-3">
+                <p className="mb-0">*No incluye costas del juicio</p>
+                <p className="mb-0 mt-n2">*Juicios ordinarios</p>
+                <p className="mb-0 mt-n2">*Desde 12UF</p>
             </div>
-            <img src={DoubleLine} alt="doubleline" className="doubleline" />
+            <img src={DoubleLine} alt="doubleline" className="doubleline my-5 pt-4" />
         </div>
     );
 }

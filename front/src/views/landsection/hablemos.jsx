@@ -5,7 +5,7 @@ import Dialogo from '../../img/hablemos.svg';
 
 const Hablemos = props => {
     return (
-        <div className="hablemos-cont text-center my-5">
+        <div className="hablemos-cont text-center mt-4 pt-4">
             <h1>HABLEMOS!</h1>
             <p>QUEREMOS AYUDARTE</p>
             <img src={Dialogo} alt="dialogo" className="dialogo py-3" />
@@ -23,10 +23,10 @@ const Hablemos = props => {
                         <label for="exampleInputComment" className="form-label">COMENTARIO</label>
                         <textarea type="text" className="form-control" id="exampleInputComentario" rows="4" />
                     </div>
-                    <img src={Submit} alt="submit" type="submit" className="submit my-4" />
+                    <img src={Submit} alt="submit" type="submit" className="submit mt-4" />
                 </form>
             </div>
-            <img src={BigDoubleLine} alt="bigdoubleline" className="bigdoubleline my-5" />
+            <img src={BigDoubleLine} alt="bigdoubleline" className="bigdoubleline my-5 py-4" />
             <h1>O CONTÁCTANOS</h1>
             <p>+56 9 3181 6173<br/>ABOGADOS@PROTEGEPYME.COM</p>
         </div>
