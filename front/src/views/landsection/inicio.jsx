@@ -13,17 +13,22 @@ const Inicio = props => {
                 <h5>AYUDAMOS A TU PYME DE MANERA SIMPLE, CERCANA Y RAPIDA!</h5>
                 <img src={DoubleLine} alt="doubleline" className="doubleline py-5" />
             </div>
-            <div className="middle d-flex justify-content-center no-gutters">
+            <div className="middle ml-4 d-flex justify-content-center no-gutters">
                 <div className="col-6 ml-5">
-                    <div className="some d-flex my-2 no-gutters">
                         <img src={IsoPP} alt="isopp" className="isopp" />
-                        <h1>COBRANZA JUDICIAL<br/>de facturas, cheques, pagarés, etc</h1>
-                    </div>
+                        <div className="some my-2  no-gutters">
+                            <h1>COBRANZA JUDICIAL </h1>
+                            <h1>de facturas, cheques, pagarés, etc</h1>
+                        </div>
                     <div className="restotexto ml-5">
-                        <p>PROTEGEMOS TU PYME Y TE AYDUAMOS EN LOS<br/>PROCESOS DE COBRANZA<br/>SI NO RECUPERAS, ¡NO PAGAS!</p>
-                        <img src={DoubleLine} alt="doubleline" className="doubleline py-5" />
+                        <div className="mt-4">
+                        <p className="mb-0">PROTEGEMOS TU PYME Y TE AYDUAMOS EN LOS</p>
+                        <p className="mb-0">PROCESOS DE COBRANZA</p>
+                        <p className="mb-0">SI NO RECUPERAS, ¡NO PAGAS!</p>
+                        </div>
                         <h1 className="mb-3">¡RECUPERA TU DINERO!</h1>
-                        <p>TIENES DERECHO A COBRAR JUDICIALMENTE LO<br/>QUE NO TE PAGARON. ¡PRUEBA CON NOSOTROS!</p>
+                        <img src={DoubleLine} alt="doubleline" className="doubleline pt-4 pb-5" />
+                        <p>TIENES DERECHO A COBRAR JUDICIALMENTE LO<br />QUE NO TE PAGARON. ¡PRUEBA CON NOSOTROS!</p>
                         <img src={Button} alt="button" className="button mt-4" />
                     </div>
                 </div>
