@@ -9,12 +9,14 @@ const Navbar = props => {
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            {/* <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
-                    <Link className="nav-item nav-link" to="/">Features</Link>
-                    <Link className="nav-item nav-link" to="/">Pricing</Link>
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="navbar-nav d-flex flex-column">
+                    <Link className="nav-item nav-link" to="/">QUÉ OFRECEMOS</Link>
+                    <Link className="nav-item nav-link" to="/">CÓMO TRABAJAMOS</Link>
+                    <Link className="nav-item nav-link" to="/">PORQUÉ TRABAJAR JUNTOS</Link>
+                    <Link className="nav-item nav-link" to="/">CONTÁCTANOS</Link>
                 </div>
-            </div> */}
+            </div>
         </nav>
     );
 }

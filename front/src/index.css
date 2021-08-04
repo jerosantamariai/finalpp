@@ -40,17 +40,24 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 /* NAVBAR */
 
 .navcolor {
-  background-color: rgb(45, 51, 77);
+  background-color: rgb(59, 28, 153);
 }
 
 .nav-item {
-  color: rgb(0, 237, 179);
+  color: rgb(255, 255, 255) !important;
+  text-decoration: underline !important;
+}
+
+.nav-item:hover {
+  color: rgb(0, 237, 179) !important;
+  text-decoration: underline !important;
 }
 
 .logoPP {
-  height: 40px;
+  height: 100px;
   width: auto;
-  margin-left: 1rem;
+  margin: 20px;
+  margin-left: 5rem;
 }
 
 /* INICIO */
