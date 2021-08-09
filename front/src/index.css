@@ -1,8 +1,8 @@
 body {
   /* background-color: rgb(45, 51, 77) !important; */
   background-color: white;
-  padding-top: 80px;
-  letter-spacing: 0.1rem;
+  /* padding-top: 80px;
+  letter-spacing: 0.1rem; */
 }
 
 @font-face{
@@ -40,23 +40,56 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 /* NAVBAR */
 
 .navcolor {
-  background-color: rgb(45, 51, 77);
+  background-color: rgb(59, 28, 153);
 }
 
 .nav-item {
-  color: rgb(0, 237, 179);
+  color: rgb(255, 255, 255) !important;
+  text-decoration: underline !important;
+}
+
+.nav-item:hover {
+  color: rgb(0, 237, 179) !important;
+  text-decoration: underline !important;
 }
 
 .logoPP {
-  height: 40px;
+  height: 100px;
   width: auto;
-  margin-left: 1rem;
+  margin: 20px;
+  margin-left: 5rem;
 }
 
 /* INICIO */
 
+.cont-inicio {
+  margin: 200px 0;
+}
+
+.cont-inicio .middle .primtit {
+  margin-bottom: 60px;
+  font-size: 70px !important;
+}
+
+.cont-inicio .middle .primsubtit {
+  margin-bottom: 60px;
+  font-size: 25px !important;
+}
+
+.cont-inicio .btncolor {
+  background-color: rgb(59, 28, 153);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-family: AuroBlack;
+  padding: 10px 30px;
+  font-size: 30px !important;
+  letter-spacing: 0.2rem;
+  vertical-align: middle !important;
+  margin-bottom: 120px;
+}
+
 .doubleline {
-  width: 15%;
+  width: 50%;
 }
 
 .isopp {
@@ -87,6 +120,28 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .some {
   padding-left: 3rem;
 }
+
+.last {
+  text-align: right;
+  margin-right: 200px;
+}
+
+.last .primtit {
+  font-family: AuroBlack;
+  font-size: 70px !important;
+}
+
+.last .subprimtit {
+  font-family: AuroBlack;
+  font-size: 40px !important;
+  margin-bottom: 60px;
+}
+
+.last .subtit {
+  font-family: AuroRegular;
+  font-size: 25px !important;
+}
+
 /* TRABAJAMOS */
 
 .img-checkbox {
