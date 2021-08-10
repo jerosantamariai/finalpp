@@ -100,8 +100,8 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   left: -0.5rem;
 }
 
-.button {
-  width: 60%;
+.contactbutton {
+  width: 45%;
 }
 
 .personauno {
@@ -124,6 +124,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .last {
   text-align: right;
   margin-right: 200px;
+  margin-top: 300px;
 }
 
 .last .primtit {
@@ -142,7 +143,73 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   font-size: 25px !important;
 }
 
+/* QUE HACEMOS */
+
+.quehacemos .text {
+  margin-left: 200px;
+}
+
+.quehacemos .text .primtit {
+  font-family: AuroBlack;
+  font-size: 70px !important;
+  margin-bottom: 60px;
+}
+
+.quehacemos .text .subprimtit {
+  font-family: AuroRegular;
+  font-size: 25px !important;
+}
+
+.quehacemos .rocket {
+  position: absolute;
+  top: 1650px;
+  left: 900px;
+  width: 30%;
+}
+
+.servleg {
+  margin-top: 120px;
+  text-align: right;
+  margin-right: 300px;
+}
+
+.quehacemos .servlegtable {
+  position: absolute;
+  left: 680px;
+}
+
+.quehacemos .servleg .primtit {
+  font-family: AuroBlack;
+  font-size: 70px !important;
+  margin-bottom: 60px;
+}
+
+.quehacemos .servleg .subprimtit {
+  font-family: AuroRegular;
+  font-size: 25px !important;
+  margin-bottom: 120px;
+}
+
+.quehacemos .tablecross {
+  width: 2%;
+  margin-right: 75px;
+}
+
+/* .quehacemos .servleg .table tr {
+  margin-bottom: 60px;
+}
+
+.quehacemos .servleg .table .tableinfo {
+  font-family: AuroRegular;
+  font-size: 25px !important;
+  margin-left: 300px !important;
+} */
+
 /* TRABAJAMOS */
+
+.trabajamos-cont {
+  margin-top: 400px;
+}
 
 .img-checkbox {
   width: 7%;
