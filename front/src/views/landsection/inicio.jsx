@@ -1,10 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import DoubleLine from '../../img/doubleline.svg';
-// import IsoPP from '../../img/isopp.png';
-// import Button from '../../img/button.svg';
-import PersonaUnoCruces from '../../img/personaunocruces.png';
-// import Cruces from '../../img/cruces.svg';
+import Button from '../../img/contactanosbutton.svg';
+import PersonaUno from '../../img/personauno.svg';
 
 const Inicio = props => {
     return (
@@ -13,13 +10,12 @@ const Inicio = props => {
                 <div className="col-6 ml-5">
                     <h1 className="primtit">ABOGADOS<br></br>100% ONLINE</h1>
                     <h5 className="primsubtit">AYUDAMOS A TU PYME DE MANERA<br></br>SIMPLE, CERCANA Y RAPIDA!</h5>
-                    {/* <img src={Button} alt="button" className="button mt-4" /> */}
-                    <Link className="btn btncolor" type="button">CONTÁCTANOS</Link>
+                    <img src={Button} alt="contactbutton" className="contactbutton" />
                     <br></br>
                     <img src={DoubleLine} alt="doubleline" className="doubleline py-5" />
                 </div>
                 <div className="col-3 d-flex align-bottom">
-                    <img src={PersonaUnoCruces} alt="personauno" className="personauno" />
+                    <img src={PersonaUno} alt="personauno" className="personauno" />
                 </div>
             </div>
             <div className="last">
