@@ -251,17 +251,24 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 /* POR QUE */
 
-.cuadro {
-  width: 10%;
-  margin: 20px;
+.porque-cont .primtit {
+  font-family: AuroBlack;
+  font-size: 70px !important;
+  margin-bottom: 120px;
 }
 
-.rocket {
-  position: absolute;
-  right: 11rem;
-  top: 88rem;
-  width: 17%;
+.porque-cont .subprimtit {
+  font-family: AuroRegular;
+  font-size: 25px !important;
+  margin-bottom: 200px;
 }
+
+.cuadro {
+  width: 15%;
+  margin: 30px;
+}
+
+
 
 /* PRECIOS */
 
