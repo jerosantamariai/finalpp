@@ -2,6 +2,7 @@ import React from 'react';
 import DoubleLine from '../../img/doubleline.svg';
 import Button from '../../img/contactanosbutton.svg';
 import PersonaUno from '../../img/personauno.svg';
+import Cruces from '../../img/cruces.svg';
 
 const Inicio = props => {
     return (
@@ -19,6 +20,7 @@ const Inicio = props => {
                 </div>
             </div>
             <div className="last">
+                <img src={Cruces} alt="cruces" className="cruces" />
                 <h1 className="primtit">COBRANZA JUDICIAL</h1>
                 <h2 className="subprimtit">de Facturas, cheques, pagarés, etc</h2>
                 <h3 className="subtit">PROTEGEMOS TU PYME Y TE AYUDAMOS</h3>
