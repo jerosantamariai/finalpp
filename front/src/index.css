@@ -290,24 +290,48 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 /* PRECIOS */
 
-.personados {
-  width: 20%;
-  position: absolute;
-  top: 120rem;
-  left: 17rem;
+.precios-cont .primtit {
+  font-family: AuroBlack;
+  font-size: 70px !important;
+  margin-bottom: 60px;
+}
+
+.precios-cont .subprimtit {
+  font-family: AuroRegular;
+  font-size: 25px !important;
 }
 
 .signopeso {
-    width: 6%;
-    margin: 1rem;
+  width: 6%;
+  margin: 120px 0px;
+}
+
+.nuestrosprecios {
+  width: 60%;
 }
 
 .tabla {
   width: 50%;
+  margin-bottom: 120px;
 }
 
 .precios-cont .doubleline {
-  width: 8%;
+  width: 20%;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.precios-cont .condiciones {
+  margin-bottom: 300px;
+}
+
+.precios-cont .torta {
+  margin-top: 120px;
+  margin-bottom: 200px;
+  width: 10%;
+}
+.precios-cont .cotiza {
+  width: 20%;
 }
 
 /* HABLEMOS */
