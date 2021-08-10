@@ -251,6 +251,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 /* POR QUE */
 
+/* .porque-cont {
+  margin-bottom: 300px;
+} */
+
 .porque-cont .primtit {
   font-family: AuroBlack;
   font-size: 70px !important;
@@ -263,12 +267,26 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-bottom: 200px;
 }
 
+.porque-cont .doubleline {
+  margin-bottom: 300px;
+  margin-top: 300px;
+}
+
 .cuadro {
   width: 15%;
   margin: 30px;
 }
 
+.porque-cont .cup {
+  width: 5%;
+  margin-bottom: 120px;
+}
 
+.porque-cont .subprimtitblack {
+  font-family: AuroBlack;
+  font-size: 25px !important;
+  margin-bottom: 60px;
+}
 
 /* PRECIOS */
 
