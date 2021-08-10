@@ -17,15 +17,15 @@ const QueHacemos = props => {
                 <h3 className="subprimtit">ASESORÍA LEGAL INTEGRAL PARA PYMES</h3>
             </div>
             <div className="servlegtable">
-                <div className="d-flex">
+                <div className="d-flex mb-5">
                     <img src={TableCross} alt="tablecross" className="tablecross" />
                     <h4 className="tableinfo">COBRANZA EJECUTIVA (FACTURAS, CHEQUES,<br></br>PAGARÉS Y ESCRITURAS PÚBLICAS)</h4>
                 </div>
-                <div className="d-flex">
+                <div className="d-flex mb-5">
                     <img src={TableCross} alt="tablecross" className="tablecross" />
                     <h4 className="tableinfo">COBRANZA ORDINARIO DE PESOS</h4>
                 </div>
-                <div className="d-flex">
+                <div className="d-flex mb-5">
                     <img src={TableCross} alt="tablecross" className="tablecross" />
                     <h4 className="tableinfo">PROCEDIMIENTOS DE REORGANIZACIÓN<br></br>Y LIQUIDACIÓN</h4>
                 </div>
