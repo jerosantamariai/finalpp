@@ -336,8 +336,21 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 /* HABLEMOS */
 
+.hablemos-cont .primtit {
+  font-family: AuroBlack;
+  font-size: 70px !important;
+  margin-bottom: 60px;
+}
+
+.hablemos-cont .subprimtit {
+  font-family: AuroRegular;
+  font-size: 25px !important;
+}
+
 .dialogo {
-  width: 5%;
+  width: 20%;
+  margin-top: 120px;
+  margin-bottom: 300px;
 }
 
 input, textarea {
@@ -349,9 +362,7 @@ input, textarea {
   width: 20%;
   height: 5%;
 }
-.hablemos-cont {
-  margin-bottom: 6rem !important;
-}
+
 .hablemos-cont p {
   letter-spacing: 0.25em;
   word-spacing: 0.25em;
