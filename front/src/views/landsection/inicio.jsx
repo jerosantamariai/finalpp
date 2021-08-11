@@ -3,6 +3,7 @@ import DoubleLine from '../../img/doubleline.svg';
 import Button from '../../img/contactanosbutton.svg';
 import PersonaUno from '../../img/personauno.svg';
 import Cruces from '../../img/cruces.svg';
+import Partner from '../../img/partner.png';
 
 const Inicio = props => {
     return (
@@ -19,6 +20,7 @@ const Inicio = props => {
                     <img src={PersonaUno} alt="personauno" className="personauno" />
                 </div>
             </div>
+            <img src={Partner} alt="partner" className="partner" />
             <div className="last">
                 <img src={Cruces} alt="cruces" className="cruces" />
                 <h1 className="primtit">COBRANZA JUDICIAL</h1>
