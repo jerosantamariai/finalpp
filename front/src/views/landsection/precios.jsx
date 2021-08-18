@@ -15,6 +15,7 @@ const Precios = props => {
                 <img src={SignoPeso} alt="signopeso" className="signopeso" />
             </div>
             <img src={NuestrosPrecios} alt="nuestrosprecios" className="nuestrosprecios" />
+            <br/>
             <img src={Tabla} alt="tabla" className="tabla" />
             <div className="condiciones text-center">
                 <p className="mb-0">* Los juicios NO comprenden gastos judiciales.</p>
