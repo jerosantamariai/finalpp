@@ -18,14 +18,14 @@ body {
 h1, th {
   font-family: AuroBlack;
   color: rgb(45, 51, 77);
-  font-size: 1.2rem !important;
+  font-size: 0.8rem !important;
   letter-spacing: 0.2rem;
 }
 
 h2, h3, h4, h5, h6, p, nav, td, li {
   font-family: AuroRegular;
   color: rgb(45, 51, 77);
-  font-size: 0.8rem !important;
+  font-size: 0.5rem !important;
   letter-spacing: 0.1rem;
 }
 
@@ -63,17 +63,17 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 /* INICIO */
 
 .cont-inicio {
-  margin: 200px 0;
+  margin: 80px 0;
 }
 
 .cont-inicio .middle .primtit {
-  margin-bottom: 60px;
-  font-size: 55px !important;
+  margin-bottom: 40px;
+  font-size: 40px !important;
 }
 
 .cont-inicio .middle .primsubtit {
   margin-bottom: 60px;
-  font-size: 20px !important;
+  font-size: 15px !important;
 }
 
 .cont-inicio .btncolor {
@@ -82,7 +82,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   border-radius: 50px;
   font-family: AuroBlack;
   padding: 10px 30px;
-  font-size: 24px !important;
+  font-size: 18px !important;
   letter-spacing: 0.2rem;
   vertical-align: middle !important;
   margin-bottom: 120px;
@@ -126,7 +126,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .cont-inicio .partner {
   width: 16%;
   position: absolute;
-  top: 900px;
+  top: 700px;
   right: 200px;
 }
 
@@ -138,18 +138,18 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .last .primtit {
   font-family: AuroBlack;
-  font-size: 55px !important;
+  font-size: 40px !important;
 }
 
 .last .subprimtit {
   font-family: AuroBlack;
-  font-size: 32px !important;
+  font-size: 26px !important;
   margin-bottom: 60px;
 }
 
 .last .subtit {
   font-family: AuroRegular;
-  font-size: 20px !important;
+  font-size: 40px !important;
 }
 
 /* QUE HACEMOS */
@@ -160,24 +160,24 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .quehacemos .text .primtit {
   font-family: AuroBlack;
-  font-size: 55px !important;
-  margin-bottom: 60px;
+  font-size: 40px !important;
+  margin-bottom: 30px;
 }
 
 .quehacemos .text .subprimtit {
   font-family: AuroRegular;
-  font-size: 20px !important;
+  font-size: 15px !important;
 }
 
 .quehacemos .rocket {
   position: absolute;
-  top: 1500px;
+  top: 1250px;
   left: 900px;
   width: 24%;
 }
 
 .servleg {
-  margin-top: 120px;
+  margin-top: 100px;
   text-align: right;
   margin-right: 300px;
 }
@@ -189,14 +189,14 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .quehacemos .servleg .primtit {
   font-family: AuroBlack;
-  font-size: 55px !important;
-  margin-bottom: 60px;
+  font-size: 40px !important;
+  margin-bottom: 30px;
 }
 
 .quehacemos .servleg .subprimtit {
   font-family: AuroRegular;
-  font-size: 20px !important;
-  margin-bottom: 120px;
+  font-size: 40px !important;
+  margin-bottom: 60px;
 }
 
 .quehacemos .tablecross {
@@ -218,37 +218,37 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 /* TRABAJAMOS */
 
 .trabajamos-cont {
-  margin-top: 600px;
+  margin-top: 400px;
 }
 
 .trabajamos-cont .doubleline {
   width: 20%;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .checkbox {
   width: 7%;
   position: absolute;
-  top: 3000px;
+  top: 2500px;
   left: 180px;
 }
 
 .trabajamos-cont .primtit {
   font-family: AuroBlack;
-  font-size: 55px !important;
-  margin-bottom: 120px;
+  font-size: 40px !important;
+  margin-bottom: 60px;
 }
 
 .trabajamos-cont .subprimtitblack {
   font-family: AuroBlack;
-  font-size: 20px !important;
+  font-size: 15px !important;
   margin-bottom: 60px;
 }
 
 .trabajamos-cont .subprimtit {
   font-family: AuroRegular;
-  font-size: 20px !important;
-  margin-bottom: 200px;
+  font-size: 15px !important;
+  margin-bottom: 120px;
 }
 
 .onda {
@@ -265,19 +265,19 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .porque-cont .primtit {
   font-family: AuroBlack;
-  font-size: 55px !important;
-  margin-bottom: 120px;
+  font-size: 40px !important;
+  margin-bottom: 80px;
 }
 
 .porque-cont .subprimtit {
   font-family: AuroRegular;
   font-size: 20px !important;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .porque-cont .doubleline {
-  margin-bottom: 300px;
-  margin-top: 300px;
+  margin-bottom: 150px;
+  margin-top: 150px;
 }
 
 .cuadro {
@@ -287,12 +287,12 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .porque-cont .cup {
   width: 4%;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .porque-cont .subprimtitblack {
   font-family: AuroBlack;
-  font-size: 20px !important;
+  font-size: 15px !important;
   margin-bottom: 60px;
 }
 
@@ -300,18 +300,18 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .precios-cont .primtit {
   font-family: AuroBlack;
-  font-size: 55px !important;
+  font-size: 40px !important;
   margin-bottom: 60px;
 }
 
 .precios-cont .subprimtit {
   font-family: AuroRegular;
-  font-size: 20px !important;
+  font-size: 15px !important;
 }
 
 .signopeso {
   width: 4.2%;
-  margin: 120px 0px;
+  margin: 60px 0px;
 }
 
 .nuestrosprecios {
@@ -319,23 +319,24 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 }
 
 .tabla {
-  width: 40%;
-  margin-bottom: 120px;
+  width: 50%;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 .precios-cont .doubleline {
   width: 16%;
-  margin-top: 300px;
-  margin-bottom: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .precios-cont .condiciones {
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 .precios-cont .torta {
-  margin-top: 120px;
-  margin-bottom: 200px;
+  margin-top: 80px;
+  margin-bottom: 100px;
   width: 8%;
 }
 .precios-cont .cotiza {
@@ -346,19 +347,19 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .hablemos-cont .primtit {
   font-family: AuroBlack;
-  font-size: 55px !important;
+  font-size: 40px !important;
   margin-bottom: 60px;
 }
 
 .hablemos-cont .subprimtit {
   font-family: AuroRegular;
-  font-size: 20px !important;
+  font-size: 15px !important;
 }
 
 .dialogo {
   width: 16%;
-  margin-top: 120px;
-  margin-bottom: 300px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 input, textarea {
@@ -403,7 +404,7 @@ input, textarea {
   letter-spacing: 0.25em;
   word-spacing: 0.25em;
   font-family: AuroRegular;
-  font-size: 20px !important;
+  font-size: 15px !important;
 }
 
 .footer .jjstudio {
@@ -416,7 +417,7 @@ input, textarea {
   letter-spacing: 0.25em;
   word-spacing: 0.25em;
   font-family: AuroRegular;
-  font-size: 20px !important;
+  font-size: 15px !important;
   margin-top: 50px;
   margin-bottom: 350px;
 }
