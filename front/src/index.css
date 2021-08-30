@@ -157,13 +157,17 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 /* QUE HACEMOS */
 
+.quehacemos {
+  margin-top: 200px;
+}
+
 .quehacemos .text {
   margin-left: 200px;
 }
 
 .quehacemos .text .primtit {
   font-family: AuroBlack;
-  font-size: 40px !important;
+  font-size: 25px !important;
   margin-bottom: 30px;
 }
 
@@ -174,13 +178,13 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .quehacemos .rocket {
   position: absolute;
-  top: 1250px;
+  top: 1050px;
   left: 900px;
   width: 24%;
 }
 
 .servleg {
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: right;
   margin-right: 300px;
 }
@@ -188,24 +192,31 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .quehacemos .servlegtable {
   position: absolute;
   left: 680px;
+  /* margin-bottom: 400px; */
 }
 
 .quehacemos .servleg .primtit {
   font-family: AuroBlack;
-  font-size: 40px !important;
+  font-size: 30px !important;
   margin-bottom: 30px;
+  margin-right: 45px;
 }
 
 .quehacemos .servleg .subprimtit {
   font-family: AuroRegular;
-  font-size: 40px !important;
+  font-size: 20px !important;
   margin-bottom: 60px;
+  margin-right: -35px;
 }
 
 .quehacemos .tablecross {
   width: 3.4%;
   margin-right: 75px;
   vertical-align: top !important;
+}
+
+.quehacemos .tableinfo {
+  font-size: 15px !important;
 }
 
 /* .quehacemos .servleg .table tr {

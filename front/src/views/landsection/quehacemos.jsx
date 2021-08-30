@@ -6,8 +6,8 @@ const QueHacemos = props => {
     return (
         <div className="quehacemos">
             <div className="text">
-                <h1 className="primtit">OBTÉN EL RECUPERO<br></br>DE TUS DEDUDAS</h1>
-                <h3 className="subprimtit">AYUDAMOS A LAS PYMER A RECUPERAR SU DINERO.<br></br>¡PRUEBA CON NOSOTROS!</h3>
+                <h1 className="primtit">OBTÉN EL RECUPERO DE TUS DEDUDAS</h1>
+                <h3 className="subprimtit">AYUDAMOS A LAS PYMER A RECUPERAR SU<br></br>DINERO. ¡PRUEBA CON NOSOTROS!</h3>
             </div>
             <div className="imagen">
                 <img src={Rocket} alt="rocket" className="rocket" />
