@@ -25,7 +25,7 @@ h1, th {
 h2, h3, h4, h5, h6, p, nav, td, li {
   font-family: AuroRegular;
   color: rgb(45, 51, 77);
-  font-size: 0.5rem !important;
+  font-size: 1rem !important;
   letter-spacing: 0.1rem;
 }
 
@@ -237,20 +237,21 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .trabajamos-cont .doubleline {
   width: 20%;
-  margin-bottom: 80px;
+  margin: 150px 0px;
 }
 
 .checkbox {
   width: 7%;
   position: absolute;
-  top: 2500px;
-  left: 180px;
+  top: 2260px;
+  left: 380px;
 }
 
 .trabajamos-cont .primtit {
   font-family: AuroBlack;
-  font-size: 40px !important;
-  margin-bottom: 60px;
+  font-size: 30px !important;
+  margin-bottom: 30px;
+  margin-right: 45px;
 }
 
 .trabajamos-cont .subprimtitblack {
@@ -279,14 +280,16 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .porque-cont .primtit {
   font-family: AuroBlack;
-  font-size: 40px !important;
-  margin-bottom: 80px;
+  font-size: 30px !important;
+  margin-bottom: 30px;
+  margin-right: 45px;
 }
 
 .porque-cont .subprimtit {
   font-family: AuroRegular;
   font-size: 20px !important;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
+  margin-right: -35px;
 }
 
 .porque-cont .doubleline {
@@ -299,8 +302,17 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin: 30px;
 }
 
+.porque-cont .nuespro {
+  text-align: left !important;
+  margin-left: 300px;
+}
+
 .porque-cont .cup {
-  width: 4%;
+  position: absolute;
+  top: 4050px;
+  left: 900px;
+  transform: rotate(10deg);
+  width: 9%;
   margin-bottom: 80px;
 }
 
@@ -353,6 +365,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-bottom: 100px;
   width: 8%;
 }
+
 .precios-cont .cotiza {
   width: 16%;
 }

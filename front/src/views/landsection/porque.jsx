@@ -32,10 +32,10 @@ const PorQue = props => {
             <img src={DoubleLine} alt="doubleline" className="doubleline" />
             <div className="nuespro">
                 <h1 className="primtit">NUESTRO PROPÓSITO</h1>
-                <img src={Cup} alt="cup" className="cup" />
                 <p className="subprimtitblack">DEMOCRATIZAMOS EL ACCESO A SERVICIOS<br></br>DE COBRANZA PARA LAS PYMES</p>
                 <p className="subprimtit">RECUPERAMOS TUS DEUDAS, RESGUARDANDO TU FLUJO DE CAJA!</p>
             </div>
+                <img src={Cup} alt="cup" className="cup" />
         </div>
     );
 }
