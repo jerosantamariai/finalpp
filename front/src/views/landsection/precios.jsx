@@ -11,9 +11,7 @@ const Precios = props => {
         <div className="precios-cont text-center no-gutters">
             <h1 className="primtit">TRANSPARENCIA</h1>
             <p className="subprimtit">LO QUE NOS CARACTERIZA</p>
-            <div className="grupo d-flex justify-content-center no-gutters">
-                <img src={SignoPeso} alt="signopeso" className="signopeso" />
-            </div>
+            <img src={SignoPeso} alt="signopeso" className="signopeso" />
             <img src={NuestrosPrecios} alt="nuestrosprecios" className="nuestrosprecios" />
             <br/>
             <img src={Tabla} alt="tabla" className="tabla" />
@@ -25,10 +23,10 @@ const Precios = props => {
             <div className="juiord">
                 <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO DE PESOS</h1>
                 <p>DESDE $ 399.000 + % DE RECUPERO</p>
+                <br/>
+                <img src={Cotiza} alt="cotiza" className="cotiza" />
             </div>
             <img src={Torta} alt="torta" className="torta" />
-            <br/>
-            <img src={Cotiza} alt="cotiza" className="cotiza" />
             <br/>
             <img src={DoubleLine} alt="doubleline" className="doubleline" />
         </div>

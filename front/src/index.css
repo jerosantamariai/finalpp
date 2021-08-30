@@ -324,23 +324,35 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 /* PRECIOS */
 
+.precios-cont {
+  margin: 200px 0px;
+}
+
 .precios-cont .primtit {
   font-family: AuroBlack;
-  font-size: 40px !important;
-  margin-bottom: 60px;
+  font-size: 30px !important;
+  text-align: right;
+  margin-right: 200px;
 }
 
 .precios-cont .subprimtit {
   font-family: AuroRegular;
   font-size: 15px !important;
+  text-align: right;
+  margin-right: 200px;
 }
 
 .signopeso {
-  width: 4.2%;
+  position: absolute;
+  top: 4370px;
+  left: 800px;
+  width: 9%;
+  transform: rotate(-15deg);
   margin: 60px 0px;
 }
 
 .nuestrosprecios {
+  margin-top: 100px;
   width: 48%;
 }
 
@@ -351,23 +363,37 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 }
 
 .precios-cont .doubleline {
-  width: 16%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .precios-cont .condiciones {
   margin-bottom: 100px;
 }
 
+.precios-cont .juiord {
+  margin-right: 170px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.precios-cont .juiord p {
+  margin-right: -560px;
+}
+
 .precios-cont .torta {
+  position: absolute;
+  top: 5750px;
+  left: 400px;
   margin-top: 80px;
   margin-bottom: 100px;
   width: 8%;
 }
 
 .precios-cont .cotiza {
-  width: 16%;
+  width: 25%;
+  margin-right: -600px;
 }
 
 /* HABLEMOS */
@@ -384,9 +410,16 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 }
 
 .dialogo {
+  position: absolute;
+  top: 6350px;
+  left: 350px;
   width: 16%;
   margin-top: 60px;
   margin-bottom: 40px;
+}
+
+.hablemos-cont .formulario {
+  margin-top: 100px;
 }
 
 input, textarea {
@@ -395,7 +428,7 @@ input, textarea {
 }
 
 .bigdoubleline {
-  width: 16%;
+  width: 32%;
   height: 4%;
 }
 
