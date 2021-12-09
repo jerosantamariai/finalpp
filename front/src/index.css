@@ -46,6 +46,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .nav-item {
   color: rgb(255, 255, 255) !important;
   text-decoration: underline !important;
+  font-weight: bold !important;
 }
 
 .nav-item:hover {
@@ -54,10 +55,14 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 }
 
 .logoPP {
-  height: 80px;
+  height: 60px;
   width: auto;
   margin: 20px;
   margin-left: 5rem;
+}
+
+.navbar-nav {
+  margin-left: 300px;
 }
 
 /* INICIO */

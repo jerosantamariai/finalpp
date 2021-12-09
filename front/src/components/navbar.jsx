@@ -10,7 +10,7 @@ const Navbar = props => {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav d-flex flex-column">
+                <div className="navbar-nav d-flex">
                     <Link className="nav-item nav-link" to="/">QUÉ OFRECEMOS</Link>
                     <Link className="nav-item nav-link" to="/">CÓMO TRABAJAMOS</Link>
                     <Link className="nav-item nav-link" to="/">PORQUÉ TRABAJAR JUNTOS</Link>
