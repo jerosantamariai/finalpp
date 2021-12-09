@@ -281,9 +281,11 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 }
 
 .onda {
-  width: 32%;
-  margin-top: 150px;
-  margin-bottom: 200px;
+  position: absolute;
+  top: 2525px;
+  left: 500px;
+  width: 30%;
+  height: auto;
 }
 
 .trabajamos-cont .pplogo {
@@ -296,9 +298,9 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 /* POR QUE */
 
-/* .porque-cont {
-  margin-bottom: 300px;
-} */
+.porque-cont {
+  margin-top: 500px;
+}
 
 .porque-cont .primtit {
   font-family: AuroBlack;
@@ -317,6 +319,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .porque-cont .doubleline {
   margin-bottom: 150px;
   margin-top: 150px;
+  width: 60vh;
 }
 
 .cuadro {
@@ -331,8 +334,8 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .porque-cont .cup {
   position: absolute;
-  top: 4050px;
-  left: 900px;
+  top: 3800px;
+  left: 1000px;
   transform: rotate(10deg);
   width: 9%;
   margin-bottom: 80px;

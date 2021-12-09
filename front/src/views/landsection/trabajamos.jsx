@@ -15,9 +15,11 @@ const Trabajamos = props => {
                 <h4 className="subprimtitblack">SOMOS PARTNER ESTRATÉGICOS DE COBRANZAONLINE</h4>
                 <p className="subprimtit">SI NO RECUPERAS EN LA ETAPA EXTRAJUDICIAL,<br></br>NOSOTROS CERRAMOS PROCESO DE COBRANZA!</p>
                 <h1>ASÍ, TODO FLUJE DE MANERA ORGÁNICA</h1>
-                <img src={COLogo} alt="cologo" className="cologo" />
-                <img src={Onda} alt="onda" className="onda" />
-                <img src={PPLogo} alt="pplogo" className="pplogo" />
+                <div className="flujo">
+                    <img src={COLogo} alt="cologo" className="cologo" />
+                    <img src={Onda} alt="onda" className="onda" />
+                    <img src={PPLogo} alt="pplogo" className="pplogo" />
+                </div>
             </div>
         </div>
     );
