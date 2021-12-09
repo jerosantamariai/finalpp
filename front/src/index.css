@@ -238,19 +238,19 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 /* TRABAJAMOS */
 
 .trabajamos-cont {
-  margin-top: 400px;
+  margin-top: 350px;
 }
 
 .trabajamos-cont .doubleline {
   width: 20%;
-  margin: 150px 0px;
+  margin: 100px 0px;
 }
 
 .checkbox {
   width: 7%;
   position: absolute;
-  top: 2260px;
-  left: 380px;
+  top: 2060px;
+  left: 340px;
 }
 
 .trabajamos-cont .primtit {
@@ -272,10 +272,26 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-bottom: 120px;
 }
 
+.trabajamos-cont .cologo {
+  position: absolute;
+  top: 2650px;
+  left: 380px;
+  width: 15%;
+  height: auto;
+}
+
 .onda {
   width: 32%;
   margin-top: 150px;
   margin-bottom: 200px;
+}
+
+.trabajamos-cont .pplogo {
+  position: absolute;
+  top: 2495px;
+  left: 960px;
+  width: 10%;
+  height: auto;
 }
 
 /* POR QUE */
