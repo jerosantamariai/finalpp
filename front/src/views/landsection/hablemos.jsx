@@ -5,7 +5,7 @@ import Dialogo from '../../img/hablemos.svg';
 
 const Hablemos = props => {
     return (
-        <div className="hablemos-cont text-center">
+        <div className="hablemos-cont text-center" id="hablemos">
             <h1 className="primtit">HABLEMOS!</h1>
             <p className="subprimtit">QUEREMOS AYUDARTE</p>
             <img src={Dialogo} alt="dialogo" className="dialogo" />

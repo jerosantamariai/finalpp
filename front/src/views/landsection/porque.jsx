@@ -12,7 +12,7 @@ import Cup from '../../img/cup.svg';
 
 const PorQue = props => {
     return (
-        <div className="porque-cont text-center no-gutters">
+        <div className="porque-cont text-center no-gutters" id="porque">
             <h1 className="primtit">¿POR QUÉ<br></br>TRABAJAR JUNTOS?</h1>
             {/* <p className="subprimtit">NUESTRO TRABAJO ES GARATÍA DE COMPROMISO, DEDICACIÓN Y EXPERIENCIA</p> */}
             <div className="cuadros">

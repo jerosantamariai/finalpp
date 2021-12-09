@@ -7,7 +7,7 @@ import PPLogo from '../../img/pplogo.png';
 
 const Trabajamos = props => {
     return (
-        <div className="trabajamos-cont no-gutters">
+        <div className="trabajamos-cont no-gutters" id="trabajamos">
             <div className="top text-center no-gutters">
                 <img src={DoubleLine} alt="doubleline" className="doubleline" />
                 <img src={Checkbox} alt="Checkbox" className="checkbox" />
