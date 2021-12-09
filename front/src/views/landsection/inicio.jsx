@@ -3,7 +3,7 @@ import DoubleLine from '../../img/doubleline.svg';
 import Button from '../../img/contactanosbutton.svg';
 import PersonaUno from '../../img/personauno.svg';
 import Cruces from '../../img/cruces.svg';
-import Partner from '../../img/partner.png';
+import Partner from '../../img/partnerCO.png';
 
 const Inicio = props => {
     return (
