@@ -167,7 +167,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 }
 
 .quehacemos .text {
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
 .quehacemos .text .primtit {
@@ -183,9 +183,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .quehacemos .rocket {
   position: absolute;
-  top: 1050px;
-  left: 900px;
-  width: 24%;
+  top: 1020px;
+  left: 800px;
+  width: 15%;
+  height: auto;
 }
 
 .servleg {
