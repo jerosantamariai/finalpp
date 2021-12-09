@@ -369,21 +369,23 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .signopeso {
   position: absolute;
-  top: 4370px;
-  left: 800px;
+  top: 4070px;
+  left: 700px;
   width: 9%;
   transform: rotate(-15deg);
   margin: 60px 0px;
 }
 
 .nuestrosprecios {
-  margin-top: 100px;
-  width: 48%;
+  position: absolute;
+  top: 4350px;
+  left: 280px;
+  width: 40vh;
 }
 
 .tabla {
   width: 50%;
-  margin-top: 80px;
+  margin-top: 200px;
   margin-bottom: 50px;
 }
 
@@ -395,6 +397,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .precios-cont .condiciones {
   margin-bottom: 100px;
+  margin-right: 350px;
 }
 
 .precios-cont .juiord {
@@ -403,8 +406,19 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-bottom: 100px;
 }
 
+.precios-cont .condtext {
+  font-size: 12px !important;
+}
+
 .precios-cont .juiord p {
   margin-right: -560px;
+}
+
+.precios-cont .lightbulb {
+  position: absolute;
+  top: 5300px;
+  left: 450px;
+  width: 25vh;
 }
 
 .precios-cont .torta {
