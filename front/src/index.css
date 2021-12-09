@@ -448,6 +448,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   font-size: 15px !important;
 }
 
+.hablemos-cont h1 {
+  font-size: 30px !important;
+}
+
 .dialogo {
   position: absolute;
   top: 6000px;

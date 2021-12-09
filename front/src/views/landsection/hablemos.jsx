@@ -28,7 +28,7 @@ const Hablemos = props => {
             </div>
             <img src={BigDoubleLine} alt="bigdoubleline" className="bigdoubleline my-5 py-4" />
             <h1>O CONTÁCTANOS</h1>
-            <p className="endspace">+56 9 3181 6173<br/>ABOGADOS@PROTEGEPYME.COM</p>
+            <p className="endspace">ABOGADOS@PROTEGEPYME.COM</p>
         </div>
     );
 }
