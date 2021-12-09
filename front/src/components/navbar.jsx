@@ -5,16 +5,16 @@ import LogoPP from '../img/logopp.png';
 const Navbar = props => {
     return (
         <nav className="navbar navbar-expand-lg navcolor no-gutters">
-            <Link className="navbar-brand" to="/"><img src={LogoPP} alt="LogoPP" className="logoPP" /></Link>
+            <a className="navbar-brand" href="/"><img src={LogoPP} alt="LogoPP" className="logoPP" /></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav d-flex">
-                    <Link className="nav-item nav-link" to="/">QUÉ OFRECEMOS</Link>
-                    <Link className="nav-item nav-link" to="/">CÓMO TRABAJAMOS</Link>
-                    <Link className="nav-item nav-link" to="/">PORQUÉ TRABAJAR JUNTOS</Link>
-                    <Link className="nav-item nav-link" to="/">CONTÁCTANOS</Link>
+                    <a className="nav-item nav-link" href="/#quehacemos">QUÉ OFRECEMOS</a>
+                    <a className="nav-item nav-link" href="/#trabajamos">CÓMO TRABAJAMOS</a>
+                    <a className="nav-item nav-link" href="/#porque">PORQUÉ TRABAJAR JUNTOS</a>
+                    <a className="nav-item nav-link" href="/#hablemos">CONTÁCTANOS</a>
                 </div>
             </div>
         </nav>
