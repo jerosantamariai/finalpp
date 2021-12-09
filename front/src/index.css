@@ -440,7 +440,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .hablemos-cont .primtit {
   font-family: AuroBlack;
   font-size: 40px !important;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .hablemos-cont .subprimtit {
@@ -450,8 +450,8 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .dialogo {
   position: absolute;
-  top: 6350px;
-  left: 350px;
+  top: 6000px;
+  left: 630px;
   width: 16%;
   margin-top: 60px;
   margin-bottom: 40px;
@@ -459,6 +459,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .hablemos-cont .formulario {
   margin-top: 100px;
+  padding-top: 200px;
 }
 
 input, textarea {
