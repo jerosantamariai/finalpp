@@ -1,6 +1,7 @@
 body {
   /* background-color: rgb(45, 51, 77) !important; */
   background-color: white;
+  overflow-x: hidden;
   /* padding-top: 80px;
   letter-spacing: 0.1rem; */
 }
@@ -350,7 +351,9 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 /* PRECIOS */
 
 .precios-cont {
-  margin: 200px 0px;
+  margin-top: 200px;
+  overflow-x: hidden;
+  /* max-width: 80vw !important; */
 }
 
 .precios-cont .primtit {
@@ -385,8 +388,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .tabla {
   width: 50%;
-  margin-top: 200px;
+  padding-top: 200px;
   margin-bottom: 50px;
+  display:block;
+  margin:auto;
 }
 
 .precios-cont .doubleline {
@@ -404,6 +409,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-right: 170px;
   margin-top: 200px;
   margin-bottom: 100px;
+  float: right;
 }
 
 .precios-cont .condtext {

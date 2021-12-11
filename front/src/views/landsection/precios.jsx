@@ -9,12 +9,14 @@ import LightBulb from '../../img/lightbulb.png';
 
 const Precios = props => {
     return (
-        <div className="precios-cont text-center no-gutters">
-            <h1 className="primtit">TRANSPARENCIA</h1>
-            <p className="subprimtit">LO QUE NOS CARACTERIZA</p>
-            <img src={SignoPeso} alt="signopeso" className="signopeso" />
+        <div className="precios-cont no-gutters">
+            <div className="preciostitulo">
+                <h1 className="primtit">TRANSPARENCIA</h1>
+                <p className="subprimtit">LO QUE NOS CARACTERIZA</p>
+                <img src={SignoPeso} alt="signopeso" className="signopeso" />
+            </div>
             <img src={NuestrosPrecios} alt="nuestrosprecios" className="nuestrosprecios" />
-            <br/>
+            <br />
             <img src={Tabla} alt="tabla" className="tabla" />
             <div className="condiciones text-right">
                 <p className="condtext mb-2">* Los juicios NO comprenden gastos judiciales. RECEPTORES y otros aplicables.</p>
@@ -24,11 +26,11 @@ const Precios = props => {
                 <img src={LightBulb} alt="lightbulb" className="lightbulb" />
                 <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO DE PESOS</h1>
                 <p>DESDE $ 399.000 + % DE RECUPERO</p>
-                <br/>
+                <br />
                 <img src={Cotiza} alt="cotiza" className="cotiza" />
             </div>
             {/* <img src={Torta} alt="torta" className="torta" /> */}
-            <br/>
+            <br />
             <img src={DoubleLine} alt="doubleline" className="doubleline" />
         </div>
     );
