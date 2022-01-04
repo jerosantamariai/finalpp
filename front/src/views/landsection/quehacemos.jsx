@@ -7,7 +7,7 @@ const QueHacemos = props => {
         <div className="quehacemos" id="quehacemos">
             <div className="text">
                 <h1 className="primtit">OBTÉN EL RECUPERO DE TUS DEUDAS</h1>
-                <h3 className="subprimtit">AYUDAMOS A LAS PYMES A RECUPERAR SU<br></br>DINERO. ¡PRUEBA CON NOSOTROS!</h3>
+                <h3 className="subprimtit">AYUDAMOS A LAS PYMES A RECUPERAR SUS<br></br>CRÉDITOS. ¡PRUEBA CON NOSOTROS!</h3>
             </div>
             <div className="imagen">
                 <img src={Rocket} alt="rocket" className="rocket" />
@@ -19,7 +19,7 @@ const QueHacemos = props => {
             <div className="servlegtable">
                 <div className="d-flex mb-5">
                     <img src={TableCross} alt="tablecross" className="tablecross" />
-                    <h4 className="tableinfo">COBRANZA EJECUTIVA (FACTURAS, CHEQUES,<br></br>PAGARÉS Y ESCRITURAS PÚBLICAS)</h4>
+                    <h4 className="tableinfo">COBRANZA EJECUTIVA (FACTURAS, PAGARÉS Y<br></br> OTROS TÍTULOS)</h4>
                 </div>
                 <div className="d-flex mb-5">
                     <img src={TableCross} alt="tablecross" className="tablecross" />

@@ -24,7 +24,7 @@ const Inicio = props => {
             <div className="last">
                 <img src={Cruces} alt="cruces" className="cruces" />
                 <h1 className="primtit">COBRANZA JUDICIAL</h1>
-                <h2 className="subprimtit">de Facturas, cheques, pagarés, etc</h2>
+                <h2 className="subprimtit">de Facturas, cheques, pagarés y otros títulos</h2>
                 <h3 className="subtit">PROTEGEMOS TU PYME Y TE AYUDAMOS EN LOS</h3>
                 <h3 className="subtit">PROCESOS DE COBRANZAS.</h3>
             </div>
