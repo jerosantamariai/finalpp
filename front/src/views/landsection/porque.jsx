@@ -13,7 +13,7 @@ import Cup from '../../img/cup.svg';
 const PorQue = props => {
     return (
         <div className="porque-cont text-center no-gutters" id="porque">
-            <h1 className="primtit">¿POR QUÉ<br></br>TRABAJAR JUNTOS?</h1>
+            <h1 className="primtit">¿PORQUÉ<br></br>TRABAJAR JUNTOS?</h1>
             {/* <p className="subprimtit">NUESTRO TRABAJO ES GARATÍA DE COMPROMISO, DEDICACIÓN Y EXPERIENCIA</p> */}
             <div className="cuadros">
                 <div className="d-flex justify-content-center no-gutters">
@@ -32,7 +32,7 @@ const PorQue = props => {
             </div>
             <div className="nuespro">
                 <h1 className="primtit">NUESTRO PROPÓSITO</h1>
-                <p className="subprimtitblack">DEMOCRATIZAMOS EL ACCESO A SERVICIOS<br></br>DE COBRANZA PARA LAS PYMES</p>
+                <p className="subprimtitblack">DEMOCRATIZAMOS EL ACCESO A SERVICIOS<br></br>DE COBRANZA PARA PYMES</p>
                 <p className="subprimtit">RECUPERAMOS TUS DEUDAS, RESGUARDANDO TU FLUJO DE CAJA!</p>
             </div>
                 <img src={Cup} alt="cup" className="cup" />

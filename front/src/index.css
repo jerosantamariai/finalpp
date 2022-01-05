@@ -284,7 +284,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   position: absolute;
   top: 2650px;
   left: 380px;
-  width: 15%;
+  width: 12%;
   height: auto;
 }
 
@@ -370,6 +370,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-right: 200px;
 }
 
+.precios-cont .primit2 {
+  padding-left: 100px;
+}
+
 .precios-cont .subprimtit {
   font-family: AuroRegular;
   font-size: 15px !important;
@@ -388,9 +392,9 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .nuestrosprecios {
   position: absolute;
-  top: 4350px;
+  top: 4320px;
   left: 280px;
-  width: 40vh;
+  width: 70vh;
 }
 
 .tabla {
@@ -403,8 +407,9 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .precios-cont .doubleline {
   width: 30%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  position: absolute;
+  top: 5700px;
+  left: 500px;
 }
 
 .precios-cont .condiciones {
@@ -421,6 +426,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .precios-cont .condtext {
   font-size: 12px !important;
+  padding-top: 0.5em !important;
 }
 
 .precios-cont .juiord p {
@@ -444,8 +450,8 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 }
 
 .precios-cont .cotiza {
-  width: 25%;
-  margin-right: -600px;
+  width: 50%;
+  /* margin-right: -200px; */
 }
 
 /* HABLEMOS */
@@ -454,6 +460,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   font-family: AuroBlack;
   font-size: 40px !important;
   margin-bottom: 30px;
+  margin-top: 200px;
 }
 
 .hablemos-cont .subprimtit {

@@ -24,8 +24,8 @@ const Precios = props => {
             </div>
             <div className="juiord">
                 <img src={LightBulb} alt="lightbulb" className="lightbulb" />
-                <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO DE PESOS</h1>
-                <p>DESDE $ 399.000 + % DE RECUPERO</p>
+                <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO EN UF</h1>
+                <p className="primit2">DESDE $ 399.000 + % DE RECUPERO</p>
                 <br />
                 <img src={Cotiza} alt="cotiza" className="cotiza" />
             </div>
