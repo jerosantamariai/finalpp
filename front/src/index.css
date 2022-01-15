@@ -284,7 +284,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   position: absolute;
   top: 2650px;
   left: 380px;
-  width: 15%;
+  width: 12%;
   height: auto;
 }
 
@@ -342,7 +342,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .porque-cont .cup {
   position: absolute;
-  top: 3800px;
+  top: 3750px;
   left: 1000px;
   transform: rotate(10deg);
   width: 9%;
@@ -370,6 +370,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-right: 200px;
 }
 
+.precios-cont .primit2 {
+  padding-left: 100px;
+}
+
 .precios-cont .subprimtit {
   font-family: AuroRegular;
   font-size: 15px !important;
@@ -388,9 +392,9 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .nuestrosprecios {
   position: absolute;
-  top: 4350px;
+  top: 4320px;
   left: 280px;
-  width: 40vh;
+  width: 70vh;
 }
 
 .tabla {
@@ -399,12 +403,14 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-bottom: 50px;
   display:block;
   margin:auto;
+  z-index: 3;
 }
 
 .precios-cont .doubleline {
   width: 30%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  position: absolute;
+  top: 5800px;
+  left: 500px;
 }
 
 .precios-cont .condiciones {
@@ -414,13 +420,14 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .precios-cont .juiord {
   margin-right: 170px;
-  margin-top: 200px;
+  margin-top: 50px;
   margin-bottom: 100px;
   float: right;
 }
 
 .precios-cont .condtext {
   font-size: 12px !important;
+  padding-top: 0.5em !important;
 }
 
 .precios-cont .juiord p {
@@ -429,7 +436,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .precios-cont .lightbulb {
   position: absolute;
-  top: 5300px;
+  top: 5400px;
   left: 450px;
   width: 25vh;
 }
@@ -444,8 +451,53 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 }
 
 .precios-cont .cotiza {
-  width: 25%;
-  margin-right: -600px;
+  width: 50%;
+  /* margin-right: -200px; */
+}
+
+.lupa {
+  width: 24vh;
+  top: 10rem;
+  position: absolute;
+  top: 4320px;
+  left: 267px;
+  /* width: 70vh; */
+  /* background-color: white; */
+  z-index: 2;
+}
+
+.primtit1 {
+  position: absolute;
+  top: 4165px;
+  left: 450px;
+  font-family: AuroBlack;
+  font-size: 40px !important;
+  margin-bottom: 30px;
+  margin-top: 200px;
+}
+
+table, th, td {
+  border: 5px solid rgb(59, 28, 153);
+  border-radius: 50px !important;
+  margin: auto;
+  margin-top: 180px !important;
+  width: 52%;
+  border-collapse: separate !important;
+  text-align: center;
+}
+
+td, th {
+  width: 33%;
+  padding: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse !important;
+  border-radius: 50px !important;
+}
+
+th {
+  font-family: AuroBlack;
+  font-size: 20px !important;
 }
 
 /* HABLEMOS */
@@ -454,6 +506,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   font-family: AuroBlack;
   font-size: 40px !important;
   margin-bottom: 30px;
+  margin-top: 200px;
 }
 
 .hablemos-cont .subprimtit {
@@ -467,7 +520,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .dialogo {
   position: absolute;
-  top: 6000px;
+  top: 6070px;
   left: 630px;
   width: 16%;
   margin-top: 60px;
