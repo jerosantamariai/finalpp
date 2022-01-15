@@ -342,7 +342,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .porque-cont .cup {
   position: absolute;
-  top: 3800px;
+  top: 3750px;
   left: 1000px;
   transform: rotate(10deg);
   width: 9%;
@@ -403,12 +403,13 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-bottom: 50px;
   display:block;
   margin:auto;
+  z-index: 3;
 }
 
 .precios-cont .doubleline {
   width: 30%;
   position: absolute;
-  top: 5700px;
+  top: 5800px;
   left: 500px;
 }
 
@@ -419,7 +420,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .precios-cont .juiord {
   margin-right: 170px;
-  margin-top: 200px;
+  margin-top: 50px;
   margin-bottom: 100px;
   float: right;
 }
@@ -435,7 +436,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .precios-cont .lightbulb {
   position: absolute;
-  top: 5300px;
+  top: 5400px;
   left: 450px;
   width: 25vh;
 }
@@ -452,6 +453,51 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .precios-cont .cotiza {
   width: 50%;
   /* margin-right: -200px; */
+}
+
+.lupa {
+  width: 24vh;
+  top: 10rem;
+  position: absolute;
+  top: 4320px;
+  left: 267px;
+  /* width: 70vh; */
+  /* background-color: white; */
+  z-index: 2;
+}
+
+.primtit1 {
+  position: absolute;
+  top: 4165px;
+  left: 450px;
+  font-family: AuroBlack;
+  font-size: 40px !important;
+  margin-bottom: 30px;
+  margin-top: 200px;
+}
+
+table, th, td {
+  border: 5px solid rgb(59, 28, 153);
+  border-radius: 50px !important;
+  margin: auto;
+  margin-top: 180px !important;
+  width: 52%;
+  border-collapse: separate !important;
+  text-align: center;
+}
+
+td, th {
+  width: 33%;
+  padding: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse !important;
+  border-radius: 50px !important;
+}
+
+th {
+  font-family: AuroBlack;
+  font-size: 20px !important;
 }
 
 /* HABLEMOS */
@@ -474,7 +520,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .dialogo {
   position: absolute;
-  top: 6000px;
+  top: 6070px;
   left: 630px;
   width: 16%;
   margin-top: 60px;

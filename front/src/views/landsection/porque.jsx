@@ -8,7 +8,7 @@ import CuadroSeis from '../../img/SQ6.svg';
 import CuadroSiete from '../../img/SQ7.svg';
 import CuadroOcho from '../../img/SQ8.svg';
 import DoubleLine from '../../img/doubleline.svg';
-import Cup from '../../img/cup.svg';
+import Cup from '../../img/cup.jpg';
 
 const PorQue = props => {
     return (
