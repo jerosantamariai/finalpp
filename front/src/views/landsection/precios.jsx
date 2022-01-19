@@ -1,5 +1,5 @@
 import React from 'react';
-// import Tabla from '../../img/tabla.png';
+import Table from '../../img/table.png';
 // import NuestrosPrecios from '../../img/nuestrosprecios.svg';
 import SignoPeso from '../../img/signopeso.svg';
 // import Torta from '../../img/torta.svg';
@@ -23,8 +23,9 @@ const Precios = props => {
             </div>
             <br />
             {/* <img src={Tabla} alt="tabla" className="tabla" /> */}
-            <div>
-                <table>
+            <div className='tablecont text-center'>
+                <img src={Table} alt="table" className="table" />
+                {/* <table>
                     <tr>
                         <th>MONTO DEUDA</th>
                         <th>COMISIÓN DE RECUPERO</th>
@@ -55,7 +56,7 @@ const Precios = props => {
                         <td>10%</td>
                         <td>Hasta 15 UF</td>
                     </tr>
-                </table>
+                </table> */}
                 <div className="condiciones text-right">
                     {/* <p className="condtext mb-2">* Los juicios NO comprenden gastos judiciales. RECEPTORES y otros aplicables.</p>
                     <p className="condtext mb-0 mt-n2">* El anticipo comprende solo primera instancia</p> */}

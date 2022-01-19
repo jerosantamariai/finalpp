@@ -1,6 +1,6 @@
 import React from 'react';
 import Submit from '../../img/submit.svg';
-import BigDoubleLine from '../../img/bigdoubleline.svg';
+import DoubleLine from '../../img/doubleline.svg';
 import Dialogo from '../../img/hablemos.svg';
 
 const Hablemos = props => {
@@ -26,7 +26,7 @@ const Hablemos = props => {
                     <img src={Submit} alt="submit" type="submit" className="submit mt-4" />
                 </form>
             </div>
-            <img src={BigDoubleLine} alt="bigdoubleline" className="bigdoubleline my-5 py-4" />
+            <img src={DoubleLine} alt="doubleline" className="doubleline my-5 py-4" />
             <h1>O CONTÁCTANOS</h1>
             <p className="endspace">ABOGADOS@PROTEGEPYME.COM</p>
         </div>

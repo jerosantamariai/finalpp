@@ -409,7 +409,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 .precios-cont .doubleline {
   width: 30%;
   position: absolute;
-  top: 5800px;
+  top: 5600px;
   left: 500px;
 }
 
@@ -436,9 +436,9 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .precios-cont .lightbulb {
   position: absolute;
-  top: 5400px;
+  top: 5250px;
   left: 450px;
-  width: 25vh;
+  width: 8%;
 }
 
 .precios-cont .torta {
@@ -476,7 +476,13 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-top: 200px;
 }
 
-table, th, td {
+.table {
+  width: 53% !important;
+  margin-top: 160px;
+  align-items: center;
+}
+
+/* table, th, td {
   border: 5px solid rgb(59, 28, 153);
   border-radius: 50px !important;
   margin: auto;
@@ -498,7 +504,7 @@ td, th {
 th {
   font-family: AuroBlack;
   font-size: 20px !important;
-}
+} */
 
 /* HABLEMOS */
 
@@ -520,7 +526,7 @@ th {
 
 .dialogo {
   position: absolute;
-  top: 6070px;
+  top: 5870px;
   left: 630px;
   width: 16%;
   margin-top: 60px;
@@ -537,9 +543,11 @@ input, textarea {
   border-radius: 10px !important;
 }
 
-.bigdoubleline {
-  width: 32%;
-  height: 4%;
+.hablemos-cont .doubleline {
+  width: 30% !important;
+  /* position: absolute;
+  top: 5600px;
+  left: 500px; */
 }
 
 .hablemos-cont p {
