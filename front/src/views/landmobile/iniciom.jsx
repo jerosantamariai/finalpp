@@ -5,7 +5,7 @@ import DoubleLine from "../../img/doubleline.svg";
 
 const InicioM = props => {
     return (
-        <div className="iniciomCont text-center">
+        <div className="iniciomCont text-center my-5">
             <img src={PersonaUno} alt="personauno" className="personauno" />
             <h1 className="primtit">ABOGADOS<br></br>100% ONLINE</h1>
             <h5 className="primsubtit">AYUDAMOS A TU PYME DE MANERA<br></br>SIMPLE, CERCANA Y RAPIDA!</h5>
