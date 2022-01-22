@@ -529,7 +529,7 @@ th {
   font-size: 30px !important;
 }
 
-.dialogo {
+.hablemos-cont .dialogo {
   position: absolute;
   top: 5870px;
   left: 630px;
@@ -543,7 +543,7 @@ th {
   padding-top: 200px;
 }
 
-input, textarea {
+.hablemos-cont input, textarea {
   border: 5px solid rgb(89, 106, 236) !important;
   border-radius: 10px !important;
 }
@@ -560,15 +560,15 @@ input, textarea {
   word-spacing: 0.25em;
 }
 
-.submit {
+.hablemos-cont .submit {
   width: 46%;
 }
 
-.form-label{
+.hablemos-cont .form-label{
   font-size: 1rem;
 }
 
-.form-control{
+.hablemos-cont .form-control{
   height: 40px;
 }
 
@@ -591,7 +591,7 @@ input, textarea {
 }
 
 .footer .jjstudio {
-  width: 4%;
+  width: 10%;
   margin-top: 5px;
 }
 
@@ -777,6 +777,35 @@ input, textarea {
 }
 
 .trabajamosM .doubleline {
+  width: 50%;
+  margin: 100px auto;
+}
+
+/* HABLEMOS */
+
+.hablemosM .primtit {
+  margin: 20px auto;
+  font-size: 1.5rem !important;
+}
+
+.hablemosM .subprimtit {
+  font-family: AuroBlack;
+  font-size: 0.7rem !important;
+  margin-bottom: 30px;
+}
+
+.hablemosM .dialogo {
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.hablemosM input, textarea {
+  border: 5px solid rgb(89, 106, 236) !important;
+  border-radius: 10px !important;
+}
+
+.hablemosM .doubleline {
   width: 50%;
   margin: 100px auto;
 }
