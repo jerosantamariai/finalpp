@@ -11,6 +11,7 @@ import InicioM from './landmobile/iniciom';
 import QueHacemosM from './landmobile/quehacemosm';
 import TrabajamosM from './landmobile/trabajamosm';
 import PorQueM from './landmobile/porquem';
+import PreciosM from './landmobile/preciom';
 
 const Home = props => {
     return (
@@ -30,6 +31,7 @@ const Home = props => {
                 <QueHacemosM />
                 <TrabajamosM />
                 <PorQueM />
+                <PreciosM />
             </div>
         </div>
     );
