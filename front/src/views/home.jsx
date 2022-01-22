@@ -9,6 +9,7 @@ import Hablemos from './landsection/hablemos';
 // version mobile
 import InicioM from './landmobile/iniciom';
 import QueHacemosM from './landmobile/quehacemosm';
+import TrabajamosM from './landmobile/trabajamosm';
 
 const Home = props => {
     return (
@@ -26,6 +27,7 @@ const Home = props => {
             <div className='d-block d-md-none'>
                 <InicioM />
                 <QueHacemosM />
+                <TrabajamosM />
             </div>
         </div>
     );

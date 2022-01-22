@@ -258,7 +258,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin: 100px 0px;
 }
 
-.checkbox {
+.trabajamos-cont .checkbox {
   width: 7%;
   position: absolute;
   top: 2060px;
@@ -292,7 +292,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   height: auto;
 }
 
-.onda {
+.trabajamos-cont .onda {
   position: absolute;
   top: 2525px;
   left: 500px;
@@ -656,3 +656,39 @@ input, textarea {
 .quehacemos .tableinfo {
   font-size: 1rem !important;
 }
+
+/* TRABAJAMOS */
+
+.trabajamosM .doubleline {
+  width: 50%;
+  margin: 100px auto;
+  display: block;
+}
+
+.trabajamosM .checkbox {
+  width: 30%;
+}
+
+.trabajamosM .flujo {
+  margin: 30px 0px;
+}
+
+.trabajamosM .cologo {
+  position: absolute;
+  top: 2300px;
+  left: -5px;
+  width: 30%;
+  height: auto;
+}
+
+.trabajamosM .onda {
+  width: 40%;
+  height: auto;
+  margin: 20px 20px 20px 50px;
+}
+
+.trabajamosM .pplogo {
+  width: 30%;
+  height: auto;
+}
+
