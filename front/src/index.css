@@ -104,7 +104,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-bottom: 120px;
 }
 
-.doubleline {
+.cont-inicio .doubleline {
   width: 50%;
 }
 
@@ -385,7 +385,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-right: 200px;
 }
 
-.signopeso {
+.precios-cont .signopeso {
   position: absolute;
   top: 4070px;
   left: 700px;
@@ -394,7 +394,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin: 60px 0px;
 }
 
-.nuestrosprecios {
+.precios-cont .nuestrosprecios {
   position: absolute;
   top: 4290px;
   left: 240px;
@@ -402,7 +402,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   z-index: -1;
 }
 
-.tabla {
+.precios-cont .tabla {
   width: 50%;
   padding-top: 200px;
   margin-bottom: 50px;
@@ -481,7 +481,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-top: 200px;
 }
 
-.table {
+.precios-cont .table {
   width: 53% !important;
   margin-top: 160px;
   align-items: center;
@@ -733,4 +733,50 @@ input, textarea {
   transform: rotate(10deg);
   width: 30%;
   margin-bottom: 50px;
+}
+
+/* PRECIOS */
+
+.preciosM {
+  margin: 50px;
+}
+
+.preciosM .primtit {
+  margin: 20px auto;
+  font-size: 1.5rem !important;
+}
+
+.preciosM .subprimtit {
+  font-family: AuroBlack;
+  font-size: 0.7rem !important;
+  margin-bottom: 30px;
+}
+
+.preciosM .signopeso {
+  width: 30%;
+  transform: rotate(-15deg);
+  margin: 60px 0px;
+}
+
+.preciosM .nuestrosprecios {
+  width: 300px;
+  z-index: -1;
+}
+
+.preciosM .table {
+  width: 110%;
+}
+
+.preciosM .condtext {
+  font-size: 12px !important;
+  padding-top: 0.5em !important;
+}
+
+.preciosM .lightbulb {
+  width: 30%;
+}
+
+.trabajamosM .doubleline {
+  width: 50%;
+  margin: 100px auto;
 }
