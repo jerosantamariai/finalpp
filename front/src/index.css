@@ -85,6 +85,8 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   font-size: 40px !important;
 }
 
+
+
 .cont-inicio .middle .primsubtit {
   margin-bottom: 60px;
   font-size: 15px !important;
@@ -114,11 +116,12 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   left: -0.5rem;
 }
 
-.contactbutton {
+.cont-inicio .contactbutton {
   width: 35%;
 }
 
-.personauno {
+
+.cont-inicio .personauno {
   width: 50%;
   height: auto;
   position: absolute;
@@ -605,124 +608,20 @@ input, textarea {
 
 
 
-
-
-
-
-
-
-
-
-@media (max-width: 600px) {
-  
-/* NAVBAR */
-
-.logoPP {
-  height: 30px;
-  width: auto;
-  margin: 20px;
-  margin-left: 1rem;
-}
-
-.navbar-nav {
-  margin-left: 0px;
-}
-
-.navbar-toggler-icon {
-  color: white !important;
-}
-
-  
+/* VERSION MOBILE */
 /* INICIO */
-
-.cont-inicio {
-  align-items: center;
-}
-
-.cont-inicio .middle .primtit {
-  margin-bottom: 40px;
-  font-size: 40px !important;
-  text-align: center !important;
-}
-
-.cont-inicio .middle .primsubtit {
-  margin-bottom: 60px;
-  font-size: 15px !important;
-  text-align: center !important;
-}
-
-/* .cont-inicio .btncolor {
-  background-color: rgb(59, 28, 153);
-  color: rgb(255, 255, 255);
-  border-radius: 50px;
-  font-family: AuroBlack;
-  padding: 10px 30px;
-  font-size: 18px !important;
-  letter-spacing: 0.2rem;
-  vertical-align: middle !important;
-  margin-bottom: 120px;
-} */
-
-.doubleline {
-  width: 100%;
-}
-
-.contactbutton {
-  margin-top: 100px !important;
-  width: 100%;
-}
-
-.personauno {
-  width: 100vh;
-  height: auto;
-  position: absolute;
-  right: 450px;
-  top: 90px;
-}
-/* 
-.cruces {
-  width: 8%;
-  position: absolute;
-  right: 1000px;
-} */
-
-/* .middle .some {
-  vertical-align: middle;
-} */
-
-/* .some {
-  padding-left: 2.4rem;
-} */
-
-.cont-inicio .partner {
-  width: 40%;
-  position: absolute;
-  top: 500px;
-  
-}
-
-.last {
-  text-align: center !important;
-  /* margin-right: 400px; */
-  margin-top: 100px;
-}
-
-.last .primtit {
-  font-family: AuroBlack;
-  font-size: 40px !important;
-}
-
-.last .subprimtit {
-  font-family: AuroBlack;
-  font-size: 26px !important;
+.iniciomCont .primtit {
   margin-bottom: 20px;
+  font-size: 1.5rem !important;
 }
 
-.last .subtit {
-  font-family: AuroRegular;
-  font-size: 20px !important;
+.iniciomCont .contactbutton {
+  margin: 20px;
+  width: 50%;
 }
 
-
-
+.iniciomCont .personauno {
+  width: 40%;
+  height: auto;
+  margin: 20px;
 }
