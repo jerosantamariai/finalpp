@@ -5,6 +5,7 @@ import Trabajamos from './landsection/trabajamos';
 import PorQue from './landsection/porque';
 import Precios from './landsection/precios';
 import Hablemos from './landsection/hablemos';
+import InicioM from './landmobile/iniciom';
 
 const Home = props => {
     return (
@@ -20,7 +21,7 @@ const Home = props => {
             </div>
             {/* version mobile */}
             <div className='d-block d-md-none'>
-                <h1>prueba mobile</h1>
+                <InicioM />
             </div>
         </div>
     );
