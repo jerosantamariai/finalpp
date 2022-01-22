@@ -1,11 +1,14 @@
 import React from 'react';
+// version desktop
 import Inicio from './landsection/inicio';
 import QueHacemos from './landsection/quehacemos';
 import Trabajamos from './landsection/trabajamos';
 import PorQue from './landsection/porque';
 import Precios from './landsection/precios';
 import Hablemos from './landsection/hablemos';
+// version mobile
 import InicioM from './landmobile/iniciom';
+import QueHacemosM from './landmobile/quehacemosm';
 
 const Home = props => {
     return (
@@ -22,6 +25,7 @@ const Home = props => {
             {/* version mobile */}
             <div className='d-block d-md-none'>
                 <InicioM />
+                <QueHacemosM />
             </div>
         </div>
     );

@@ -625,3 +625,34 @@ input, textarea {
   height: auto;
   margin: 20px;
 }
+
+/* QUE HACEMOS */
+
+.queHacemosM .primtit {
+  margin: 20px auto;
+  font-size: 1.5rem !important;
+}
+
+.queHacemosM .subprimtit {
+  font-family: AuroBlack;
+  font-size: 0.7rem !important;
+  margin-bottom: 30px;
+}
+
+.queHacemosM .servlegtable {
+  margin-top: 60px;
+}
+
+.queHacemosM .rocket {
+  width: 40%;
+  height: auto;
+}
+
+.queHacemosM .tablecross {
+  width: 3.4%;
+  margin-right: 15px;
+}
+
+.quehacemos .tableinfo {
+  font-size: 1rem !important;
+}
