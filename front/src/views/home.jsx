@@ -10,6 +10,7 @@ import Hablemos from './landsection/hablemos';
 import InicioM from './landmobile/iniciom';
 import QueHacemosM from './landmobile/quehacemosm';
 import TrabajamosM from './landmobile/trabajamosm';
+import PorQueM from './landmobile/porquem';
 
 const Home = props => {
     return (
@@ -28,6 +29,7 @@ const Home = props => {
                 <InicioM />
                 <QueHacemosM />
                 <TrabajamosM />
+                <PorQueM />
             </div>
         </div>
     );

@@ -334,7 +334,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   width: 60vh;
 }
 
-.cuadro {
+.porque-cont .cuadro {
   width: 12%;
   margin: 30px;
 }
@@ -659,6 +659,21 @@ input, textarea {
 
 /* TRABAJAMOS */
 
+.trabajamosM{
+  margin-bottom: 100px;
+}
+
+.trabajamosM .primtit {
+  margin: 20px auto;
+  font-size: 1.5rem !important;
+}
+
+.trabajamosM .subprimtit {
+  font-family: AuroBlack;
+  font-size: 0.7rem !important;
+  margin-bottom: 30px;
+}
+
 .trabajamosM .doubleline {
   width: 50%;
   margin: 100px auto;
@@ -692,3 +707,30 @@ input, textarea {
   height: auto;
 }
 
+/* POR QUE */
+
+.porqueM .primtit {
+  margin: 20px auto;
+  font-size: 1.5rem !important;
+}
+
+.porqueM .subprimtit {
+  font-family: AuroBlack;
+  font-size: 0.7rem !important;
+  margin-bottom: 30px;
+}
+
+.porqueM .cuadro {
+  width: 30%;
+  margin: 30px;
+}
+
+.porqueM .doubleline {
+  margin: 50px;
+}
+
+.porqueM .cup {
+  transform: rotate(10deg);
+  width: 30%;
+  margin-bottom: 50px;
+}
