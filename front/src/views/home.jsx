@@ -12,6 +12,7 @@ import QueHacemosM from './landmobile/quehacemosm';
 import TrabajamosM from './landmobile/trabajamosm';
 import PorQueM from './landmobile/porquem';
 import PreciosM from './landmobile/preciom';
+import HablemosM from './landmobile/hablemosm';
 
 const Home = props => {
     return (
@@ -32,6 +33,7 @@ const Home = props => {
                 <TrabajamosM />
                 <PorQueM />
                 <PreciosM />
+                <HablemosM />
             </div>
         </div>
     );
