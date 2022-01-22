@@ -42,6 +42,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .navcolor {
   background-color: rgb(59, 28, 153);
+  /* position: static; */
 }
 
 .nav-item {
@@ -392,9 +393,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .nuestrosprecios {
   position: absolute;
-  top: 4320px;
-  left: 280px;
+  top: 4290px;
+  left: 240px;
   width: 70vh;
+  z-index: -1;
 }
 
 .tabla {
@@ -403,7 +405,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-bottom: 50px;
   display:block;
   margin:auto;
-  z-index: 3;
+  z-index: 9999;
 }
 
 .precios-cont .doubleline {
@@ -586,8 +588,8 @@ input, textarea {
 }
 
 .footer .jjstudio {
-  width: 8%;
-  margin-top: 50px;
+  width: 4%;
+  margin-top: 5px;
 }
 
 .footer .date {
@@ -596,8 +598,8 @@ input, textarea {
   word-spacing: 0.25em;
   font-family: AuroRegular;
   font-size: 15px !important;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 
@@ -700,8 +702,8 @@ input, textarea {
 }
 
 .last {
-  text-align: right;
-  margin-right: 400px;
+  text-align: center !important;
+  /* margin-right: 400px; */
   margin-top: 100px;
 }
 

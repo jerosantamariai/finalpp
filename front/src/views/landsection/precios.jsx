@@ -1,12 +1,12 @@
 import React from 'react';
 import Table from '../../img/table.png';
-// import NuestrosPrecios from '../../img/nuestrosprecios.svg';
+import NuestrosPrecios from '../../img/nuestrosprecios.png';
 import SignoPeso from '../../img/signopeso.svg';
 // import Torta from '../../img/torta.svg';
 import Cotiza from '../../img/cotiza.svg';
 import DoubleLine from '../../img/doubleline.svg';
 import LightBulb from '../../img/lightbulb.png';
-import Lupa from '../../img/lupa.png';
+// import Lupa from '../../img/lupa.png';
 
 const Precios = props => {
     return (
@@ -17,9 +17,9 @@ const Precios = props => {
                 <img src={SignoPeso} alt="signopeso" className="signopeso" />
             </div>
             <div>
-                <img src={Lupa} alt="lupa" className="lupa" />
-                <span className='primtit1'>UESTROS PRECIOS</span>
-                {/* <img src={NuestrosPrecios} alt="nuestrosprecios" className="nuestrosprecios" /> */}
+                {/* <img src={Lupa} alt="lupa" className="lupa" />
+                <span className='primtit1'>UESTROS PRECIOS</span> */}
+                <img src={NuestrosPrecios} alt="nuestrosprecios" className="nuestrosprecios" />
             </div>
             <br />
             {/* <img src={Tabla} alt="tabla" className="tabla" /> */}
