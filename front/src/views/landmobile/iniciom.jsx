@@ -11,7 +11,7 @@ const InicioM = props => {
             <h5 className="primsubtit">AYUDAMOS A TU PYME DE MANERA<br></br>SIMPLE, CERCANA Y RAPIDA!</h5>
             <img src={Button} alt="contactbutton" className="contactbutton" />
             <img src={DoubleLine} alt="doubleline" className="doubleline py-5" />
-            <h1 className="primtit">COBRANZA JUDICIAL</h1>
+            <h1 className="primtit" id="quehacemos">COBRANZA JUDICIAL</h1>
             <h2 className="subprimtit">de Facturas, cheques,<br></br>pagarés y otros títulos</h2>
             <h3 className="subtit">PROTEGEMOS TU PYME<br></br>Y TE AYUDAMOS EN LOS<br></br>PROCESOS DE COBRANZAS.</h3>
         </div>

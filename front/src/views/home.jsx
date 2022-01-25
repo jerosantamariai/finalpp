@@ -13,10 +13,12 @@ import TrabajamosM from './landmobile/trabajamosm';
 import PorQueM from './landmobile/porquem';
 import PreciosM from './landmobile/preciom';
 import HablemosM from './landmobile/hablemosm';
+import WpLogo from '../img/wplogo.png';
 
 const Home = props => {
     return (
         <div>
+            <a href="https://api.whatsapp.com/send?phone=56931816173" target="_blank"><img src={WpLogo} alt="wplogo" className='wplogo' /></a>
             {/* version desktop */}
             <div className="home no-gutters d-none d-md-block">
                 <Inicio />
