@@ -4,7 +4,7 @@ import TableCross from '../../img/tablecross.svg';
 
 const QueHacemos = props => {
     return (
-        <div className="quehacemos" id="quehacemos">
+        <div className="quehacemos">
             <div className="text">
                 <h1 className="primtit">OBTÉN EL RECUPERO DE TUS DEUDAS</h1>
                 <h3 className="subprimtit">AYUDAMOS A LAS PYMES A RECUPERAR SUS<br></br>CRÉDITOS. ¡PRUEBA CON NOSOTROS!</h3>

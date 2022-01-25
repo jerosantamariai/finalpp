@@ -8,7 +8,7 @@ import Partner from '../../img/partnerCO.png';
 const Inicio = props => {
     return (
         <div className="cont-inicio no-gutters">
-            <div className="middle ml-4 d-flex justify-content-center no-gutters">
+            <div className="middle ml-4 py-5 d-flex justify-content-center no-gutters">
                 <div className="col-6 ml-5">
                     <h1 className="primtit">ABOGADOS<br></br>100% ONLINE</h1>
                     <h5 className="primsubtit">AYUDAMOS A TU PYME DE MANERA<br></br>SIMPLE, CERCANA Y RAPIDA!</h5>
@@ -19,9 +19,9 @@ const Inicio = props => {
                 <div className="col-3 d-flex align-bottom">
                     <img src={PersonaUno} alt="personauno" className="personauno" />
                 </div>
+                <img src={Partner} alt="partner" className="partner" />
             </div>
-            <img src={Partner} alt="partner" className="partner" />
-            <div className="last">
+            <div className="last" id="quehacemos">
                 <img src={Cruces} alt="cruces" className="cruces" />
                 <h1 className="primtit">COBRANZA JUDICIAL</h1>
                 <h2 className="subprimtit">de Facturas, cheques, pagarés y otros títulos</h2>
