@@ -50,6 +50,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   height: 80vh;
 }
 
+textarea {
+  height: 10rem !important;
+}
+
 /* NAVBAR */
 
 .navcolor {
