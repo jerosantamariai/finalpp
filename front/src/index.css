@@ -46,6 +46,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   z-index: 1000;
 }
 
+.sendcont {
+  height: 80vh;
+}
+
 /* NAVBAR */
 
 .navcolor {
@@ -80,6 +84,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   margin-left: 300px;
 }
 
+.navbar span {
+  color: white !important;
+  z-index: 999;
+}
 
 
 /* INICIO */
@@ -526,7 +534,7 @@ th {
   margin-top: 200px;
 }
 
-.hablemos-cont .subprimtit {
+.hablemos-cont .subprimtit, form {
   font-family: AuroRegular;
   font-size: 15px !important;
 }
@@ -568,6 +576,11 @@ th {
 
 .hablemos-cont .submit {
   width: 46%;
+  border: none;
+  background-color: transparent;
+  font-family: AuroBlack;
+  font-size: 1.5rem !important;
+  text-decoration: underline;
 }
 
 .hablemos-cont .form-label{
@@ -803,6 +816,15 @@ th {
 .hablemosM .primtit {
   margin: 20px auto;
   font-size: 1.5rem !important;
+}
+
+.hablemosM .submit {
+  width: 46%;
+  border: none;
+  background-color: transparent;
+  font-family: AuroBlack;
+  font-size: 1.5rem !important;
+  text-decoration: underline;
 }
 
 .hablemosM .subprimtit {
