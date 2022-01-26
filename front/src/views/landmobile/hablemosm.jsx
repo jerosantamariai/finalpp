@@ -1,5 +1,5 @@
 import React from 'react';
-import Submit from '../../img/submit.svg';
+// import Submit from '../../img/submit.svg';
 import DoubleLine from '../../img/doubleline.svg';
 import Dialogo from '../../img/hablemos.svg';
 
@@ -10,20 +10,21 @@ const HablemosM = props => {
             <p className="subprimtit">QUEREMOS AYUDARTE</p>
             <img src={Dialogo} alt="dialogo" className="dialogo" />
             <div className="formulario col-10 offset-1">
-                <form>
+            <form method='post' action='sendmail.php' >
                     <div className="mb-3">
                         <label for="exampleInputEmail" className="form-label">EMAIL</label>
-                        <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" />
+                        <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" name='email' required />
                     </div>
                     <div className="mb-3">
                         <label for="exampleInputName" className="form-label">NOMBRE</label>
-                        <input type="text" className="form-control" id="exampleInputName" />
+                        <input type="text" className="form-control" id="exampleInputName" name='name' required />
                     </div>
                     <div className="mb-3">
                         <label for="exampleInputComment" className="form-label">COMENTARIO</label>
-                        <textarea type="text" className="form-control" id="exampleInputComentario" rows="4" />
+                        <textarea type="text" className="form-control" id="exampleInputComentario" rows="6" name='comments' required />
                     </div>
-                    <img src={Submit} alt="submit" type="submit" className="submit mt-4" />
+                    {/* <img src={Submit} alt="submit" type="submit" className="submit mt-4" /> */}
+                    <button type='submit' className='submit mt-4'>Enviar</button>
                 </form>
             </div>
             <img src={DoubleLine} alt="doubleline" className="doubleline my-5 py-4" />
