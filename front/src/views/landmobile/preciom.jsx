@@ -2,8 +2,7 @@ import React from 'react';
 import Table from '../../img/table.png';
 import NuestrosPrecios from '../../img/nuestrosprecios.png';
 import SignoPeso from '../../img/signopeso.svg';
-
-import Cotiza from '../../img/cotiza.svg';
+// import Cotiza from '../../img/cotiza.svg';
 import DoubleLine from '../../img/doubleline.svg';
 import LightBulb from '../../img/lightbulb.png';
 
@@ -34,7 +33,8 @@ const PreciosM = props => {
                 <p className="primit2">DESDE $ 399.000 + % DE RECUPERO</p>
                 <br />
                 <img src={LightBulb} alt="lightbulb" className="lightbulb" />
-                <img src={Cotiza} alt="cotiza" className="cotiza" />
+                {/* <img src={Cotiza} alt="cotiza" className="cotiza" /> */}
+                <a className='btn btncolor' href="#hablemos" >COTIZA AQUÍ</a>
             </div>
             <br />
             <img src={DoubleLine} alt="doubleline" className="doubleline" />
