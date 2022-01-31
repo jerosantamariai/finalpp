@@ -517,6 +517,32 @@ textarea {
   align-items: center;
 }
 
+.precios-cont .btncolor {
+  background-color: rgb(59, 28, 153);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-family: AuroBlack;
+  padding: 10px 30px;
+  font-size: 18px !important;
+  letter-spacing: 0.2rem;
+  vertical-align: middle !important;
+  margin-bottom: 30px;
+  margin-left: 200px;
+}
+
+.precios-cont .btncolor:hover {
+  color: rgb(0, 237, 179) !important;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-family: AuroBlack;
+  padding: 10px 30px;
+  font-size: 18px !important;
+  letter-spacing: 0.2rem;
+  vertical-align: middle !important;
+  margin-bottom: 30px;
+  margin-left: 200px;
+}
+
 /* table, th, td {
   border: 5px solid rgb(59, 28, 153);
   border-radius: 50px !important;
@@ -672,6 +698,29 @@ th {
   width: 50%;
 }
 
+.iniciomCont .btncolor {
+  background-color: rgb(59, 28, 153);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-family: AuroBlack;
+  padding: 10px 30px;
+  font-size: 18px !important;
+  letter-spacing: 0.2rem;
+  vertical-align: middle !important;
+  margin-bottom: 30px;
+}
+
+.iniciomCont .btncolor:hover {
+  color: rgb(0, 237, 179) !important;
+  border-radius: 50px;
+  font-family: AuroBlack;
+  padding: 10px 30px;
+  font-size: 18px !important;
+  letter-spacing: 0.2rem;
+  vertical-align: middle !important;
+  margin-bottom: 30px;
+}
+
 /* QUE HACEMOS */
 
 .queHacemosM .primtit {
@@ -825,6 +874,33 @@ th {
 .trabajamosM .doubleline {
   width: 50%;
   margin: 100px auto;
+}
+
+/* PRECIOS */
+
+.preciosM .btncolor {
+  background-color: rgb(59, 28, 153);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-family: AuroBlack;
+  padding: 10px 30px;
+  font-size: 18px !important;
+  letter-spacing: 0.2rem;
+  vertical-align: middle !important;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.preciosM .btncolor:hover {
+  color: rgb(0, 237, 179) !important;
+  border-radius: 50px;
+  font-family: AuroBlack;
+  padding: 10px 30px;
+  font-size: 18px !important;
+  letter-spacing: 0.2rem;
+  vertical-align: middle !important;
+  margin-bottom: 0px;
+  margin-top: 40px;
 }
 
 /* HABLEMOS */

@@ -3,7 +3,7 @@ import Table from '../../img/table.png';
 import NuestrosPrecios from '../../img/nuestrosprecios.png';
 import SignoPeso from '../../img/signopeso.svg';
 // import Torta from '../../img/torta.svg';
-import Cotiza from '../../img/cotiza.svg';
+// import Cotiza from '../../img/cotiza.svg';
 import DoubleLine from '../../img/doubleline.svg';
 import LightBulb from '../../img/lightbulb.png';
 // import Lupa from '../../img/lupa.png';
@@ -71,7 +71,8 @@ const Precios = props => {
                 <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO EN UF</h1>
                 <p className="primit2">DESDE $ 399.000 + % DE RECUPERO</p>
                 <br />
-                <img src={Cotiza} alt="cotiza" className="cotiza" />
+                {/* <img src={Cotiza} alt="cotiza" className="cotiza" /> */}
+                <a className='btn btncolor' href="#hablemos" >COTIZA AQUÍ</a>
             </div>
             {/* <img src={Torta} alt="torta" className="torta" /> */}
             <br />
