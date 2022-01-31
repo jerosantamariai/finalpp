@@ -119,7 +119,19 @@ textarea {
   font-size: 18px !important;
   letter-spacing: 0.2rem;
   vertical-align: middle !important;
-  margin-bottom: 120px;
+  margin-bottom: 30px;
+}
+
+.cont-inicio .btncolor:hover {
+  color: rgb(0, 237, 179) !important;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-family: AuroBlack;
+  padding: 10px 30px;
+  font-size: 18px !important;
+  letter-spacing: 0.2rem;
+  vertical-align: middle !important;
+  margin-bottom: 30px;
 }
 
 .cont-inicio .doubleline {
