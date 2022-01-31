@@ -939,3 +939,38 @@ th {
   width: 50%;
   margin: 100px auto;
 }
+
+
+
+
+
+
+/* BLOGS */
+
+.blogs .card-img-top {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  width: auto;     
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* BLOG */
+
+.blog .img-fluid {
+  display: block;
+  padding: 10px;
+  position: relative;
+  width: auto;     
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* LOGIN */
+
+.login {
+  min-height: 60vh;
+}
