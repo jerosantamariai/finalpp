@@ -155,7 +155,7 @@ textarea {
   height: auto;
   position: absolute;
   right: 450px;
-  top: 90px;
+  top: 50px;
 }
 
 .cruces {
@@ -175,7 +175,7 @@ textarea {
 .cont-inicio .partner {
   width: 20%;
   position: absolute;
-  top: 530px;
+  top: 590px;
   right: 200px;
 }
 
@@ -375,10 +375,10 @@ textarea {
 
 .porque-cont .cup {
   position: absolute;
-  top: 3800px;
-  left: 1000px;
+  top: 3870px;
+  left: 800px;
   transform: rotate(10deg);
-  width: 9%;
+  width: 7%;
   margin-bottom: 80px;
 }
 
@@ -416,16 +416,16 @@ textarea {
 
 .precios-cont .signopeso {
   position: absolute;
-  top: 4120px;
-  left: 700px;
-  width: 9%;
+  top: 4210px;
+  left: 820px;
+  width: 7%;
   transform: rotate(-15deg);
   margin: 60px 0px;
 }
 
 .precios-cont .nuestrosprecios {
   position: absolute;
-  top: 4340px;
+  top: 4460px;
   left: 240px;
   width: 70vh;
   z-index: -1;
@@ -443,7 +443,7 @@ textarea {
 .precios-cont .doubleline {
   width: 30%;
   position: absolute;
-  top: 5650px;
+  top: 5700px;
   left: 500px;
 }
 
@@ -460,7 +460,7 @@ textarea {
 }
 
 .precios-cont .condtext {
-  font-size: 12px !important;
+  font-size: 13px !important;
   padding-top: 0.5em !important;
 }
 
@@ -470,9 +470,9 @@ textarea {
 
 .precios-cont .lightbulb {
   position: absolute;
-  top: 5300px;
-  left: 450px;
-  width: 8%;
+  top: 5400px;
+  left: 500px;
+  width: 7%;
 }
 
 .precios-cont .torta {
@@ -566,6 +566,11 @@ th {
   font-size: 20px !important;
 } */
 
+.precios-cont .tablesection {
+  margin-top: 3rem;
+}
+
+
 /* HABLEMOS */
 
 .hablemos-cont .primtit {
@@ -586,8 +591,8 @@ th {
 
 .hablemos-cont .dialogo {
   position: absolute;
-  top: 5950px;
-  left: 630px;
+  top: 6000px;
+  left: 700px;
   width: 16%;
   margin-top: 60px;
   margin-bottom: 40px;

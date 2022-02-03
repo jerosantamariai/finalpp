@@ -16,16 +16,17 @@ const Precios = props => {
                 <p className="subprimtit">LO QUE NOS CARACTERIZA</p>
                 <img src={SignoPeso} alt="signopeso" className="signopeso" />
             </div>
-            <div>
-                {/* <img src={Lupa} alt="lupa" className="lupa" />
+            <div className='tablesection'>
+                <div>
+                    {/* <img src={Lupa} alt="lupa" className="lupa" />
                 <span className='primtit1'>UESTROS PRECIOS</span> */}
-                <img src={NuestrosPrecios} alt="nuestrosprecios" className="nuestrosprecios" />
-            </div>
-            <br />
-            {/* <img src={Tabla} alt="tabla" className="tabla" /> */}
-            <div className='tablecont text-center'>
-                <img src={Table} alt="table" className="table" />
-                {/* <table>
+                    <img src={NuestrosPrecios} alt="nuestrosprecios" className="nuestrosprecios" />
+                </div>
+                <br />
+                {/* <img src={Tabla} alt="tabla" className="tabla" /> */}
+                <div className='tablecont text-center'>
+                    <img src={Table} alt="table" className="table" />
+                    {/* <table>
                     <tr>
                         <th>MONTO DEUDA</th>
                         <th>COMISIÓN DE RECUPERO</th>
@@ -57,19 +58,20 @@ const Precios = props => {
                         <td>Hasta 15 UF</td>
                     </tr>
                 </table> */}
-                <div className="condiciones text-right">
-                    {/* <p className="condtext mb-2">* Los juicios NO comprenden gastos judiciales. RECEPTORES y otros aplicables.</p>
+                    <div className="condiciones text-right">
+                        {/* <p className="condtext mb-2">* Los juicios NO comprenden gastos judiciales. RECEPTORES y otros aplicables.</p>
                     <p className="condtext mb-0 mt-n2">* El anticipo comprende solo primera instancia</p> */}
-                    <p className="condtext mb-2">* En estos tramos, se ofrecen 2 alternativas:         <br></br>a) Tramitación completa del juicio.<br></br>b) Tramitación parcial para reducir los gastos.</p>
-                    <p className="condtext mb-2">* Se calcula la UF referencial del día de contratación</p>
-                    <p className="condtext mb-2">* Los servicios no comprenden gastos procesales de tramitación (receptores y otros aplicables)</p>
-                    <p className="condtext mb-2">* *El valor del anticipo solo comprende  primera instancia.</p>
+                        {/* <p className="condtext mb-2">* En estos tramos, se ofrecen 2 alternativas:         <br></br>a) Tramitación completa del juicio.<br></br>b) Tramitación parcial para reducir los gastos.</p> */}
+                        <p className="condtext mb-2">* Se calcula la UF referencial del día de contratación</p>
+                        <p className="condtext mb-2">* Los servicios no comprenden gastos procesales de tramitación (receptores y otros aplicables)</p>
+                        <p className="condtext mb-2">* *El valor del anticipo solo comprende  primera instancia.</p>
+                    </div>
                 </div>
             </div>
             <div className="juiord">
                 <img src={LightBulb} alt="lightbulb" className="lightbulb" />
-                <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO EN UF</h1>
-                <p className="primit2">DESDE $ 399.000 + % DE RECUPERO</p>
+                <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO</h1>
+                <p className="primit2">DESDE UF 10 + % DE RECUPERO</p>
                 <br />
                 {/* <img src={Cotiza} alt="cotiza" className="cotiza" /> */}
                 <a className='btn btncolor' href="#hablemos" >COTIZA AQUÍ</a>
