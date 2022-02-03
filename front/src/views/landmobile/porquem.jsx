@@ -13,7 +13,7 @@ import Cup from '../../img/cup.jpg';
 const PorQueM = props => {
     return (
         <div className="porqueM text-center no-gutters" id="porque">
-            <h1 className="primtit">¿PORQUÉ<br></br>TRABAJAR JUNTOS?</h1>
+            <h1 className="primtit">¿POR QUÉ<br></br>TRABAJAR JUNTOS?</h1>
             {/* <p className="subprimtit">NUESTRO TRABAJO ES GARATÍA DE COMPROMISO, DEDICACIÓN Y EXPERIENCIA</p> */}
             <div className="cuadros">
                 <div className="d-flex justify-content-center no-gutters">

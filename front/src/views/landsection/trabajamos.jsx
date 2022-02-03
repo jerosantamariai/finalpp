@@ -12,13 +12,13 @@ const Trabajamos = props => {
                 <img src={DoubleLine} alt="doubleline" className="doubleline" />
                 <img src={Checkbox} alt="Checkbox" className="checkbox" />
                 <h1 className="primtit pt-5 pb-4">¿CÓMO TRABAJAMOS?</h1>
-                <h4 className="subprimtitblack">SOMOS PARTNER ESTRATÉGICOS DE COBRANZAONLINE</h4>
-                <p className="subprimtit">SI NO RECUPERAS EN LA ETAPA EXTRAJUDICIAL,<br></br>NOSOTROS CERRAMOS PROCESO DE COBRANZA!</p>
+                <h4 className="subprimtitblack py-2">SOMOS PARTNER ESTRATÉGICOS DE COBRANZAONLINE</h4>
+                <p className="subprimtit py-2">SI NO RECUPERAS EN LA ETAPA EXTRAJUDICIAL,<br></br>NOSOTROS CERRAMOS PROCESO DE COBRANZA!</p>
                 <h1>ASÍ, TODO FLUJE DE MANERA ORGÁNICA</h1>
-                <div className="flujo">
-                    <img src={COLogo} alt="cologo" className="cologo" />
-                    <img src={Onda} alt="onda" className="onda" />
-                    <img src={PPLogo} alt="pplogo" className="pplogo" />
+                <div className="flujo mx-auto">
+                    <img src={COLogo} alt="cologo" className="cologo py-5" />
+                    <img src={Onda} alt="onda" className="onda py-5" />
+                    <img src={PPLogo} alt="pplogo" className="pplogo py-5" />
                 </div>
             </div>
         </div>

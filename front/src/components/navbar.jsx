@@ -21,7 +21,7 @@ const Navbar = props => {
                                     <a className="nav-item nav-link" href="/#trabajamos">CÓMO TRABAJAMOS</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-item nav-link" href="/#porque">PORQUÉ TRABAJAR JUNTOS</a>
+                                    <a className="nav-item nav-link" href="/#porque">POR QUÉ TRABAJAR JUNTOS</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-item nav-link" href="/#hablemos">CONTÁCTANOS</a>

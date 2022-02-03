@@ -19,11 +19,11 @@ const QueHacemos = props => {
             <div className="servlegtable">
                 <div className="d-flex mb-5">
                     <img src={TableCross} alt="tablecross" className="tablecross" />
-                    <h4 className="tableinfo">COBRANZA EJECUTIVA (FACTURAS, PAGARÉS Y<br></br> OTROS TÍTULOS)</h4>
+                    <h4 className="tableinfo">COBRANZA EJECUTIVA (FACTURAS, PAGARÉS Y<br></br> OTROS TÍTULOS LEGALES)</h4>
                 </div>
                 <div className="d-flex mb-5">
                     <img src={TableCross} alt="tablecross" className="tablecross" />
-                    <h4 className="tableinfo">COBRANZA ORDINARIO DE PESOS</h4>
+                    <h4 className="tableinfo">COBRANZA ORDINARIA DE PESOS</h4>
                 </div>
                 <div className="d-flex mb-5">
                     <img src={TableCross} alt="tablecross" className="tablecross" />
