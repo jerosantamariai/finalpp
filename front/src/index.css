@@ -155,7 +155,7 @@ textarea {
   height: auto;
   position: absolute;
   right: 450px;
-  top: 50px;
+  top: 130px;
 }
 
 .cruces {
@@ -375,10 +375,10 @@ textarea {
 
 .porque-cont .cup {
   position: absolute;
-  top: 3870px;
-  left: 800px;
+  top: 3900px;
+  left: 700px;
   transform: rotate(10deg);
-  width: 7%;
+  width: 5%;
   margin-bottom: 80px;
 }
 
@@ -416,10 +416,10 @@ textarea {
 
 .precios-cont .signopeso {
   position: absolute;
-  top: 4210px;
-  left: 820px;
-  width: 7%;
-  transform: rotate(-15deg);
+  top: 4220px;
+  left: 870px;
+  width: 5%;
+  transform: rotate(-10deg);
   margin: 60px 0px;
 }
 
@@ -470,9 +470,9 @@ textarea {
 
 .precios-cont .lightbulb {
   position: absolute;
-  top: 5400px;
-  left: 500px;
-  width: 7%;
+  top: 5350px;
+  left: 530px;
+  width: 5%;
 }
 
 .precios-cont .torta {
@@ -590,18 +590,18 @@ th {
 }
 
 .hablemos-cont .dialogo {
-  position: absolute;
+  /* position: absolute;
   top: 6000px;
-  left: 700px;
+  left: 700px; */
   width: 16%;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  /* margin-top: 60px;
+  margin-bottom: 40px; */
 }
 
-.hablemos-cont .formulario {
+/* .hablemos-cont .formulario {
   margin-top: 100px;
   padding-top: 200px;
-}
+} */
 
 .hablemos-cont input, textarea {
   border: 5px solid rgb(89, 106, 236) !important;

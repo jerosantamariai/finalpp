@@ -7,9 +7,11 @@ import Form from '../../components/form';
 const Hablemos = props => {
     return (
         <div className="hablemos-cont text-center" id="hablemos">
-            <h1 className="primtit">HABLEMOS!</h1>
-            <p className="subprimtit">QUEREMOS AYUDARTE</p>
-            <img src={Dialogo} alt="dialogo" className="dialogo" />
+            <div className="title text-center d-block">
+                <h1 className="primtit">HABLEMOS!</h1>
+                <p className="subprimtit">QUEREMOS AYUDARTE</p>
+                <img src={Dialogo} alt="dialogo" className="dialogo" />
+            </div>
             <div className="formulario col-6 offset-3">
                 <Form />
             </div>
