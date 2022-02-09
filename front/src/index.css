@@ -54,6 +54,15 @@ textarea {
   height: 10rem !important;
 }
 
+.cont-inicio .test {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(0, 237, 179);
+  position: absolute;
+  top: 200px;
+  left: 40px;
+}
+
 /* NAVBAR */
 
 .navcolor {

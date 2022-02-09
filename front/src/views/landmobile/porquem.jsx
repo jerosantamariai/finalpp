@@ -34,7 +34,7 @@ const PorQueM = props => {
                 </div>
             </div>
             <img src={DoubleLine} alt="doubleline" className="doubleline" />
-            <div className="nuespro">
+            <div className="nuespro my-3">
                 <img src={Cup} alt="cup" className="cup" />
                 <h1 className="primtit">NUESTRO PROPÓSITO</h1>
                 <p className="subprimtitblack">DEMOCRATIZAMOS EL ACCESO A SERVICIOS<br></br>DE COBRANZA PARA PYMES</p>
