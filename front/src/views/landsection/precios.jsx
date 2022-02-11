@@ -10,11 +10,13 @@ import LightBulb from '../../img/lightbulb.png';
 
 const Precios = props => {
     return (
-        <div className="precios-cont no-gutters">
-            <div className="preciostitulo">
-                <h1 className="primtit">TRANSPARENCIA</h1>
-                <p className="subprimtit">LO QUE NOS CARACTERIZA</p>
+        <div className="precios-cont no-gutters text-center">
+            <div className="preciostitulo d-flex">
                 <img src={SignoPeso} alt="signopeso" className="signopeso" />
+                <div>
+                    <h1 className="primtit">TRANSPARENCIA</h1>
+                    <p className="subprimtit">LO QUE NOS CARACTERIZA</p>
+                </div>
             </div>
             <div className='tablesection'>
                 <div>
@@ -26,7 +28,8 @@ const Precios = props => {
                 {/* <img src={Tabla} alt="tabla" className="tabla" /> */}
                 <div className='tablecont text-center'>
                     <img src={Table} alt="table" className="table" />
-                    {/* <table>
+                    <div>
+                        {/* <table>
                     <tr>
                         <th>MONTO DEUDA</th>
                         <th>COMISIÓN DE RECUPERO</th>
@@ -58,6 +61,7 @@ const Precios = props => {
                         <td>Hasta 15 UF</td>
                     </tr>
                 </table> */}
+                    </div>
                     <div className="condiciones text-right">
                         {/* <p className="condtext mb-2">* Los juicios NO comprenden gastos judiciales. RECEPTORES y otros aplicables.</p>
                     <p className="condtext mb-0 mt-n2">* El anticipo comprende solo primera instancia</p> */}
@@ -68,17 +72,23 @@ const Precios = props => {
                     </div>
                 </div>
             </div>
-            <div className="juiord">
+            <div className="row juiord d-flex">
+                <div className="col-2">
                 <img src={LightBulb} alt="lightbulb" className="lightbulb" />
-                <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO</h1>
-                <p className="primit2">DESDE UF 10 + % DE RECUPERO</p>
-                <br />
-                {/* <img src={Cotiza} alt="cotiza" className="cotiza" /> */}
-                <a className='btn btncolor' href="#hablemos" >COTIZA AQUÍ</a>
+                </div>
+                <div className='col-7'>
+                    <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO</h1>
+                    <p className="primit2">DESDE UF 10 + % DE RECUPERO</p>
+                    <br />
+                    {/* <img src={Cotiza} alt="cotiza" className="cotiza" /> */}
+                    <a className='btn btncolor' href="#hablemos" >COTIZA AQUÍ</a>
+                </div>
             </div>
-            {/* <img src={Torta} alt="torta" className="torta" /> */}
-            <br />
             <img src={DoubleLine} alt="doubleline" className="doubleline" />
+            {/* <img src={Torta} alt="torta" className="torta" /> */}
+
+
+
         </div>
     );
 }

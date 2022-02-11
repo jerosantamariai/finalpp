@@ -15,8 +15,7 @@ const QueHacemos = props => {
             <div className="servleg">
                 <h1 className="primtit">SERVICIOS LEGALES</h1>
                 <h3 className="subprimtit">ASESORÍA LEGAL INTEGRAL PARA PYMES</h3>
-            </div>
-            <div className="servlegtable">
+                <div className="servlegtable">
                 <div className="d-flex mb-5">
                     <img src={TableCross} alt="tablecross" className="tablecross" />
                     <h4 className="tableinfo">COBRANZA EJECUTIVA (FACTURAS, PAGARÉS Y<br></br> OTROS TÍTULOS LEGALES)</h4>
@@ -33,6 +32,7 @@ const QueHacemos = props => {
                     <img src={TableCross} alt="tablecross" className="tablecross" />
                     <h4 className="tableinfo">ASESORÍA LEGAL INTEGRAL PARA PYMES</h4>
                 </div>
+            </div>
             </div>
         </div>
     );
