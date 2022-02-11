@@ -383,12 +383,13 @@ textarea {
 }
 
 .porque-cont .cup {
-  position: absolute;
+  /* position: absolute;
   top: 3900px;
-  left: 700px;
+  left: 700px; */
   transform: rotate(10deg);
-  width: 5%;
-  margin-bottom: 80px;
+  width: 8%;
+  height: 8%;
+  /* margin-left: -100px; */
 }
 
 .porque-cont .subprimtitblack {
@@ -409,11 +410,11 @@ textarea {
   font-family: AuroBlack;
   font-size: 30px !important;
   text-align: right;
-  margin-right: 200px;
+  /* margin-right: 200px; */
 }
 
 .precios-cont .primit2 {
-  padding-left: 100px;
+  float: right;
 }
 
 .precios-cont .subprimtit {
@@ -423,13 +424,17 @@ textarea {
   margin-right: 200px;
 }
 
+.preciostitulo {
+  float: right;
+}
+
 .precios-cont .signopeso {
-  position: absolute;
+  /* position: absolute;
   top: 4220px;
-  left: 870px;
-  width: 5%;
+  left: 870px; */
+  width: 10%;
   transform: rotate(-10deg);
-  margin: 60px 0px;
+  margin-right: 50px;
 }
 
 .precios-cont .nuestrosprecios {
@@ -451,9 +456,11 @@ textarea {
 
 .precios-cont .doubleline {
   width: 30%;
-  position: absolute;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  /* position: absolute;
   top: 5700px;
-  left: 500px;
+  left: 500px; */
 }
 
 .precios-cont .condiciones {
@@ -462,10 +469,11 @@ textarea {
 }
 
 .precios-cont .juiord {
-  margin-right: 170px;
+  /* margin-right: 170px; */
   margin-top: 50px;
   margin-bottom: 100px;
   float: right;
+  align-content: flex-end !important;
 }
 
 .precios-cont .condtext {
@@ -473,15 +481,18 @@ textarea {
   padding-top: 0.5em !important;
 }
 
-.precios-cont .juiord p {
+/* .precios-cont .juiord p {
   margin-right: -560px;
-}
+} */
 
 .precios-cont .lightbulb {
-  position: absolute;
+  /* position: absolute;
   top: 5350px;
-  left: 530px;
-  width: 5%;
+  left: 530px; */
+  width: 70%;
+  /* height: 10%; */
+  margin-right: 60px;
+  float: right;
 }
 
 .precios-cont .torta {
@@ -535,7 +546,7 @@ textarea {
   letter-spacing: 0.2rem;
   vertical-align: middle !important;
   margin-bottom: 30px;
-  margin-left: 200px;
+  float: right !important;
 }
 
 .precios-cont .btncolor:hover {

@@ -28,14 +28,16 @@ const PorQue = props => {
                     <img src={CuadroSiete} alt="cuadrosiete" className="cuadro" />
                     <img src={CuadroOcho} alt="cuadroocho" className="cuadro" />
                 </div>
-            <img src={DoubleLine} alt="doubleline" className="doubleline" />
+                <img src={DoubleLine} alt="doubleline" className="doubleline" />
             </div>
-            <div className="nuespro">
-                <h1 className="primtit">NUESTRO PROPÓSITO</h1>
-                <p className="subprimtitblack">DEMOCRATIZAMOS EL ACCESO A SERVICIOS<br></br>DE COBRANZA PARA PYMES</p>
-                <p className="subprimtit">RECUPERAMOS TUS DEUDAS, RESGUARDANDO TU FLUJO DE CAJA!</p>
-            </div>
+            <div className="nuespro d-flex">
+                <div>
+                    <h1 className="primtit">NUESTRO PROPÓSITO</h1>
+                    <p className="subprimtitblack">DEMOCRATIZAMOS EL ACCESO A SERVICIOS<br></br>DE COBRANZA PARA PYMES</p>
+                    <p className="subprimtit">RECUPERAMOS TUS DEUDAS, RESGUARDANDO TU FLUJO DE CAJA!</p>
+                </div>
                 <img src={Cup} alt="cup" className="cup" />
+            </div>
         </div>
     );
 }
