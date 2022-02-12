@@ -14,6 +14,8 @@ import PorQueM from './landmobile/porquem';
 import PreciosM from './landmobile/preciom';
 import HablemosM from './landmobile/hablemosm';
 import WpLogo from '../img/wplogo.png';
+import DoubleLine from '../img/doubleline.svg';
+
 
 const Home = props => {
     return (
@@ -26,6 +28,9 @@ const Home = props => {
                 <Trabajamos />
                 <PorQue />
                 <Precios />
+                <div className="text-center">
+                    <img src={DoubleLine} alt="doubleline" className="doublelinec my-3" />
+                </div>
                 <Hablemos />
             </div>
             {/* version mobile */}
@@ -35,6 +40,9 @@ const Home = props => {
                 <TrabajamosM />
                 <PorQueM />
                 <PreciosM />
+                <div className="text-center">
+                    <img src={DoubleLine} alt="doubleline" className="doublelinec my-3" />
+                </div>
                 <HablemosM />
             </div>
         </div>

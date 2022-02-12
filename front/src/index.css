@@ -57,7 +57,7 @@ textarea {
 .cont-inicio .test {
   width: 5px;
   height: 5px;
-  background-color: rgb(0, 237, 179);
+  background-color: rgb(59, 28, 153);
   position: absolute;
   top: 200px;
   left: 40px;
@@ -421,7 +421,7 @@ textarea {
   font-family: AuroRegular;
   font-size: 15px !important;
   text-align: right;
-  margin-right: 200px;
+  margin-right: 0px;
 }
 
 .preciostitulo {
@@ -450,21 +450,20 @@ textarea {
   padding-top: 200px;
   margin-bottom: 50px;
   display:block;
-  margin:auto;
+  /* margin:auto; */
   z-index: 9999;
 }
 
-.precios-cont .doubleline {
+.doublelinec {
+  /* position: absolute; */
   width: 30%;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  /* position: absolute;
-  top: 5700px;
-  left: 500px; */
+  
+  /* top: 100px */
 }
 
 .precios-cont .condiciones {
   margin-bottom: 100px;
+  margin-top: -250px;
   margin-right: 350px;
 }
 
@@ -532,8 +531,11 @@ textarea {
 
 .precios-cont .table {
   width: 53% !important;
-  margin-top: 160px;
-  align-items: center;
+  margin-top: 400px;
+  /* text-align: center !important; */
+  position:relative; 
+  left:50%;
+  transform:translate(-50%, -50%);
 }
 
 .precios-cont .btncolor {
