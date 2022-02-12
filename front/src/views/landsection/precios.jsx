@@ -4,13 +4,13 @@ import NuestrosPrecios from '../../img/nuestrosprecios.png';
 import SignoPeso from '../../img/signopeso.svg';
 // import Torta from '../../img/torta.svg';
 // import Cotiza from '../../img/cotiza.svg';
-import DoubleLine from '../../img/doubleline.svg';
+// import DoubleLine from '../../img/doubleline.svg';
 import LightBulb from '../../img/lightbulb.png';
 // import Lupa from '../../img/lupa.png';
 
 const Precios = props => {
     return (
-        <div className="precios-cont no-gutters text-center">
+        <div className="precios-cont no-gutters d-block">
             <div className="preciostitulo d-flex">
                 <img src={SignoPeso} alt="signopeso" className="signopeso" />
                 <div>
@@ -26,8 +26,10 @@ const Precios = props => {
                 </div>
                 <br />
                 {/* <img src={Tabla} alt="tabla" className="tabla" /> */}
-                <div className='tablecont text-center'>
-                    <img src={Table} alt="table" className="table" />
+                <div className='tablecont'>
+                    <div className="content-center">
+                        <img src={Table} alt="table" className="table" />
+                    </div>
                     <div>
                         {/* <table>
                     <tr>
@@ -74,7 +76,7 @@ const Precios = props => {
             </div>
             <div className="row juiord d-flex">
                 <div className="col-2">
-                <img src={LightBulb} alt="lightbulb" className="lightbulb" />
+                    <img src={LightBulb} alt="lightbulb" className="lightbulb" />
                 </div>
                 <div className='col-7'>
                     <h1 className="primtit">JUICIOS ORDINARIOS DE<br></br>COBRO</h1>
@@ -84,7 +86,7 @@ const Precios = props => {
                     <a className='btn btncolor' href="#hablemos" >COTIZA AQUÍ</a>
                 </div>
             </div>
-            <img src={DoubleLine} alt="doubleline" className="doubleline" />
+            
             {/* <img src={Torta} alt="torta" className="torta" /> */}
 
 
