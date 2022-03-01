@@ -247,7 +247,8 @@ textarea {
 
 .quehacemos .servlegtable {
   position: absolute;
-  left: 680px;
+  right: 0px;
+  /* float: right; */
   /* margin-bottom: 400px; */
 }
 
