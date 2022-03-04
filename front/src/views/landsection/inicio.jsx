@@ -8,7 +8,7 @@ import Partner from '../../img/partnerCO.png';
 const Inicio = props => {
     return (
         <div className="cont-inicio no-gutters">
-            {/* <div className="test"></div> */}
+            <div className="test"></div>
             <div className="middle ml-4 py-5 d-flex justify-content-center no-gutters">
                 <div className="col-6 ml-5">
                     <h1 className="primtit">ABOGADOS<br></br>100% ONLINE</h1>
